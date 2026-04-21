@@ -27,8 +27,7 @@ What is the trace of a matrix? What are its properties? - May 2024
 Find Singular Value Decomposition of the given matrix and indicate insights about linear transformations conveyed by this method. - May 2024 [Diagram]
 Find SVD of matrix A which is shown below. - Dec 2024 [Diagram]
 Find the eigenvalues of the 2 × 2 matrix A. Also find eigen vectors - May 2025 [Diagram]
-Diagonalize the matrix. - May 2024 [Diagram]
-
+Diagonalize the matrix. - May 2024, May 2025 [Diagram]
 
 UNIT 3 - Linear Models
 
@@ -64,7 +63,7 @@ Draw and explain Biological neuron. - Dec 2024
 Draw and explain a biological neuron. Compare ANN with BNN. - May 2025
 Explain in detail the MP neuron model. - May 2023, Dec 2024
 Implement XOR function using McCulloch Pitts Model. - May 2024
- Explain Perceptron model with Bias. - Dec 2023
+Explain Perceptron model with Bias. - Dec 2023
 What are Activation functions? Explain Binary, Bipolar, Continuous, and Ramp activation functions. - May 2023
 Artificial Neural Network(s) - May 2023, Dec 2024
 Perceptron Neural Network. - May 2023, Dec 2024
@@ -82,7 +81,7 @@ Explain Back Propagation Neural Network with flowchart. - May 2024
 Draw Delta Learning Rule (LMS-Widrow Hoff) model and explain it with a training process flowchart. - May 2023, Dec 2024
 Explain various activation functions with appropriate diagrams, equations, ranges and their applications in real world. - May 2025
 Explain back error propagation with neat diagram and weight updation equation. - May 2025
-Implement OR function using single layer perceptron upto 2 epochs. - May 2025
+Implement OR function using single layer perceptron upto 2 epochs. Assume initial values of weights and learning rate as follows w1=w2=b=0, threshold θ = 0.2 and learning rate (α) = 1. - May 2025
 Explain the Perceptron Neural Network. - Dec 2023
 
 UNIT 6 - Dimensionality Reduction

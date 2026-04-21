@@ -1,89 +1,89 @@
 UNIT 1 - Introduction to Data Analytics and Life Cycle
 
 5 Marks :
-What is an analytic sandbox, and why is it important? (May 2023)
-Why is data analytics lifecycle essential? (May 2024)
-List and explain different key roles for successful data analytics? (Dec 2024)
-What are the common tools used for data preparation phase and model planning phase of data analytics life cycle. (Dec 2024)
-Key roles in data analytics life cycle. (Dec 2024)
-List and explain the various key roles for a successful analytics. (May 2025)
+What is an analytic sandbox, and why is it important? - May 2023
+Why is data analytics lifecycle essential? - May 2024
+List and explain different key roles for successful data analytics? - Dec 2024
+What are the common tools used for data preparation phase and model planning phase of data analytics life cycle. - Dec 2024
+Key roles in data analytics life cycle. - Dec 2024
+List and explain the various key roles for a successful analytics. - May 2025
 
 10 Marks :
-List and explain the main phases of the Data Analytics Lifecycle. (May 2023)
-Explain the data analytics lifecycle. (Dec 2023)
-Explain different phases in data analytics lifecycle.(May 2024)
-List and explain different phases in data analytics lifecycle.(Dec 2024)
-Explain the data analytics life cycle.(May 2025)
+List and explain the main phases of the Data Analytics Lifecycle. - May 2023
+Explain the data analytics lifecycle. - Dec 2023
+Explain different phases in data analytics lifecycle.- May 2024
+List and explain different phases in data analytics lifecycle. - Dec 2024
+Explain the data analytics life cycle. - May 2025
 
 UNIT 2 - Regression Models
 
 5 Marks :
-What is regression? What is simple linear regression? (May 2023)
-Evaluating the Residuals in Linear regression. (May 2023)
-The regression lines of a sample are x + 6y = 6 and 3x + 2y = 10. 
-Find (i) sample means x and y. (ii) coefficient of correlation between x and y (Dec 2023)
-Differentiate between linear regression and logistic regression. (Dec 2023)
-What is Stepwise regression? Explain its types. (May 2024)
-Differentiate Linear Regression and Logistic Regression. (Dec 2024)
-Stepwise regression (Dec 2024)
-Generalized Linear model (Dec 2024), (May 2024)
-Explain Logistic Response Function. (May 2025)
-Fitted value and residuals in Linear Regression. (May 2025)
+What is regression? What is simple linear regression? - May 2023
+Evaluating the Residuals in Linear regression. - May 2023
+The regression lines of a sample are x + 6y = 6 and 3x + 2y = 10. Find (i) sample means x and y. (ii) coefficient of correlation between x and y. - Dec 2023
+Differentiate between linear regression and logistic regression. - Dec 2023
+What is Stepwise regression? Explain its types. - May 2024
+Differentiate Linear Regression and Logistic Regression. - Dec 2024
+Stepwise regression - Dec 2024
+Generalized Linear model - Dec 2024, May 2024
+Explain Logistic Response Function. - May 2025
+Fitted value and residuals in Linear Regression. - May 2025
 
 10 Marks :
-Describe how logistic regression can be used as a classifier. (May 2023)
+Describe how logistic regression can be used as a classifier. - May 2023
 Suppose everyone who visits a retail website gets one promotional offer or no promotion at all. We want to see if making a promotional offer makes a difference. What statistical method would you recommend for this analysis? (May 2023)
-Find two lines of regression from the following data: Age of husband (x) 25, 22, 28, 26, 35, 20, 22, 40, 20, 18; Age of wife (y) 18, 15, 20, 17, 22, 14, 16, 21, 15, 14. Estimate (i) the age of husband when the age of wife is 19 and (ii) the age of wife when the age of the husband is 30. (Dec 2023)
-Fit a regression equation to estimate β0, β1, and β2 to the following data of a transport company on the weights of 6 shipments, the distances they were moved and the damage of the goods that was incurred. Weight X1 (1000 kg): 4.0, 3.0, 1.6, 1.2, 3.4, 4.8; Distance X2 (100 km): 1.5, 2.2, 1.0, 2.0, 0.8, 1.6; Damage Y (Rs.): 160, 112, 69, 90, 123, 186. Estimate the damage when a shipment of 3700 kg is moved to a distance of 260 km. (Dec 2023)
-From the following results, obtain two regression equations and estimate the yield when the rainfall is 29 cm and the rainfall when the yield is 600 kg. Yield in Kg./Rainfall in cm: Mean 508.4/26.7, SD 36.8/4.6, Coefficient of Correlation 0.52. (Dec 2023)
-What is stepwise regression? State and explain different types of stepwise regression. (Dec 2023)
-Generalized linear model (GLM) (Dec 2023)
-The number of bacterial cells (y) per unit volume in a culture at different hours (x) is given below: x = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9; y = 43, 46, 82, 98, 123, 167, 199, 213, 245, 272. Fit lines of regression of y on x and x on y. Also, estimate the number of bacterial cells after 15 hours. (May 2024)
-What is Logistic Regression? What are the similarities and differences between linear regression and logistic regression? (May 2024)
-Calculating the regression equation of x on y and y on x from the following data and estimate x when y = 20. Also determine the value of correlation coefficient. x: 10, 12, 13, 17, 18; y: 5, 6, 7, 9, 13. (Dec 2024)
-Calculate the linear regression using least square method for the given dataset. Independent Variable (X): 1, 2, 3, 4, 5; Dependent Variable (Y): 2, 4, 5, 4, 5. (May 2025)
-Fit a regression equation to estimate β0, β1 and β2 to the following data of a transport company on the weights of 6 shipments, the distances they were moved and the damage of the goods that was incurred. Weight X1 (1000 kg): 4.0, 3.0, 1.6, 1.2, 3.4, 4.8; Distance X2 (100 km): 1.5, 2.2, 1.0, 2.0, 0.8, 1.6; Damage(y): 160, 112, 69, 90, 123, 186. Estimate the damage when a shipment of 3700 kg is moved to a distance of 260 km. (May 2025)
+Find two lines of regression from the following data: Age of husband (x) 25, 22, 28, 26, 35, 20, 22, 40, 20, 18; Age of wife (y) 18, 15, 20, 17, 22, 14, 16, 21, 15, 14. Estimate (i) the age of husband when the age of wife is 19 and (ii) the age of wife when the age of the husband is 30. - Dec 2023
+Fit a regression equation to estimate β0, β1, and β2 to the following data of a transport company on the weights of 6 shipments, the distances they were moved and the damage of the goods that was incurred. Weight X1 (1000 kg): 4.0, 3.0, 1.6, 1.2, 3.4, 4.8; Distance X2 (100 km): 1.5, 2.2, 1.0, 2.0, 0.8, 1.6; Damage Y (Rs.): 160, 112, 69, 90, 123, 186. Estimate the damage when a shipment of 3700 kg is moved to a distance of 260 km. - Dec 2023
+From the following results, obtain two regression equations and estimate the yield when the rainfall is 29 cm and the rainfall when the yield is 600 kg. Yield in Kg./Rainfall in cm: Mean 508.4/26.7, SD 36.8/4.6, Coefficient of Correlation 0.52. - Dec 2023
+What is stepwise regression? State and explain different types of stepwise regression. - Dec 2023
+Generalized linear model (GLM) - Dec 2023
+The number of bacterial cells (y) per unit volume in a culture at different hours (x) is given below: x = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9; y = 43, 46, 82, 98, 123, 167, 199, 213, 245, 272. Fit lines of regression of y on x and x on y. Also, estimate the number of bacterial cells after 15 hours. - May 2024
+What is Logistic Regression? What are the similarities and differences between linear regression and logistic regression? - May 2024
+Calculating the regression equation of x on y and y on x from the following data and estimate x when y = 20. Also determine the value of correlation coefficient. x: 10, 12, 13, 17, 18; y: 5, 6, 7, 9, 13. - Dec 2024
+Calculate the linear regression using least square method for the given dataset. Independent Variable (X): 1, 2, 3, 4, 5; Dependent Variable (Y): 2, 4, 5, 4, 5. - May 2025
+Fit a regression equation to estimate β0, β1 and β2 to the following data of a transport company on the weights of 6 shipments, the distances they were moved and the damage of the goods that was incurred. Weight X1 (1000 kg): 4.0, 3.0, 1.6, 1.2, 3.4, 4.8; Distance X2 (100 km): 1.5, 2.2, 1.0, 2.0, 0.8, 1.6; Damage(y): 160, 112, 69, 90, 123, 186. Estimate the damage when a shipment of 3700 kg is moved to a distance of 260 km. - May 2025
 
 
 UNIT 3 - Time Series
 
 5 Marks:
-Why use autocorrelation instead of autocovariance when examining stationary time series?  (May 2023)
-Box-Jenkins Methodology. (May 2023)
-Explain components of time series? (May 2024)
-What is time series analysis? Explain its components. (Dec 2024)
-Box-Jenkins Methodology. (Dec 2024), (May 2024), (May 2025)
+Why use autocorrelation instead of autocovariance when examining stationary time series?  - May 2023
+Box-Jenkins Methodology. - May 2023
+Explain components of time series? - May 2024
+What is time series analysis? Explain its components. - Dec 2024
+Box-Jenkins Methodology. - Dec 2024, May 2024, May 2025
 
 10 Marks:
-How does the ARMA model differ from the ARIMA model? In what situation is the ARMA model appropriate?
-Explain Box-Jenkins intervention analysis.
-Time series analysis
-Explain ARIMA model in detail. Also state its Pros and Cons.
-Explain Autoregressive (AR), Moving Average (MA), Autoregressive Moving Average (ARMA) and Autoregressive Integrated Moving Average (ARIMA) Models in detail.
-Explain with justification that which analysis model is used to predict / forecast monthly average temperature in a specific region over the next year considering historical climate data.
-Explain AR and MA model in detail.
-Describe in detail about building and evaluating an ARIMA Model.
+Difference between ARMA and ARIMA; when ARMA is appropriate - May 2023.
+Box-Jenkins intervention analysis - Dec 2023.
+Time series analysis - Dec 2023.
+ARIMA model in detail; pros and cons - May 2024.
+Box-Jenkins Methodology -  May 2024.
+AR, MA, ARMA and ARIMA models in detail - Dec 2024.
+Choose/justify the analysis model for forecasting monthly average temperature from historical climate data - Dec 2024.
+AR and MA models in detail - May 2025.
+Building and evaluating an ARIMA model - May 2025.
 
 
 UNIT 4 - Text Analytics
 
 5 Marks:
-Explain term frequency (TF), document frequency (DF), and inverse document frequency (IDF). (Dec 2023)
-Explain Term Frequency-Inverse Document Frequency (TF-IDF) with a suitable example. (May 2024)
-Explain in brief steps of text analysis. (Dec 2024)
-What are the application and use cases for text mining? (May 2025)
-Explain TFIDF with an example. (May 2025)
+Explain term frequency (TF), document frequency (DF), and inverse document frequency (IDF). - Dec 2023
+Explain Term Frequency-Inverse Document Frequency (TF-IDF) with a suitable example. - May 2024
+Explain in brief steps of text analysis. - Dec 2024
+What are the application and use cases for text mining? - May 2025
+Explain TFIDF with an example. - May 2025
 
 10 Marks:
-List and explain methods that can be used for sentiment analysis. (May 2023)
-List and explain the steps in the Text Analysis. (May 2023)
+List and explain methods that can be used for sentiment analysis. - May 2023
+List and explain the steps in the Text Analysis. - May 2023
 Explain with suitable example how the Term Frequency and Inverse Document Frequency are used in information retrieval.
-What is text mining? Enlist and explain the seven practice areas of text analytics. (Dec 2023)
-Explain in detail seven practice areas of text analytics. (May 2024)
-Enlist and explain the steps of text analysis. (May 2024)
-Explain seven practice areas of text analytics. (Dec 2024)
-What is a text summarizer? How does it work? Explain the difference between extractive summarization and abstractive summarization. (Dec 2024)
-List and explain the steps in text analysis. (May 2025)
+What is text mining? Enlist and explain the seven practice areas of text analytics. - Dec 2023
+Explain in detail seven practice areas of text analytics. - May 2024
+Enlist and explain the steps of text analysis. - May 2024
+Explain seven practice areas of text analytics. - Dec 2024
+What is a text summarizer? How does it work? Explain the difference between extractive summarization and abstractive summarization. - Dec 2024
+List and explain the steps in text analysis. - May 2025
 
 UNIT 5 - Data Analytics and Visualization with R
 
@@ -92,28 +92,29 @@ Data import and Export in R. (May 2023), (May 2024)
 Explain different data types in R with examples. (Dec 2024), (May 2025)
 
 10 Marks:
-Explain in detail how dirty data can be detected in the data exploration phase with visualizations.
-Explain different types of data visualizations in R programming language. 
-Exploratory data analysis
-How Exploratory Data Analysis (EDA) is performed in R?
-How is data exploration different from presentation? Explain with suitable examples?
-List and explain the different type of data visualization used in R.
-Describe in detail about removing the dirty data using R.
+Detecting dirty data in the data exploration phase using visualizations - May 2023.
+Different types of data visualizations in R - Dec 2023.
+Exploratory Data Analysis - Dec 2023.
+How EDA is performed in R - May 2024.
+Data import and export in R - May 2024.
+Data exploration vs presentation, with examples - Dec 2024.
+Different types of data visualization used in R - May 2025.
+Removing dirty data using R - May 2025
 
 UNIT 6 - Data Analytics and Visualization with Python
 
 5 Marks:
-Difference between Pandas and NumPy. (May 2023)
-Seaborn Library. (May 2023)
-What is Pandas? State and explain key features of Pandas. (Dec 2023)
-Difference between Matplotlib and Seaborn library. (May 2024)
-What is Pandas? Explain features of Pandas. (Dec 2024)
-What is Seaborn Library? State and explain key features of seaborn. (May 2025)
-Pandas Library (May 2024)
-Box Plot (May 2025)
+Difference between Pandas and NumPy. - May 2023
+Seaborn Library. - May 2023
+What is Pandas? State and explain key features of Pandas. - Dec 2023
+Difference between Matplotlib and Seaborn library. - May 2024
+What is Pandas? Explain features of Pandas. - Dec 2024
+What is Seaborn Library? State and explain key features of seaborn.  - May 2025
+Pandas Library - May 2024
+Box Plot - May 2025
 
 10 Marks:
-Regression plot (May 2024)
-Explain different types of data visualisation in Python programming language. (May 2024)
-Explain following data visualization libraries in Python: Box plot, Violin plot, Pie chart, Histogram, Bar chart (Dec 2024)
+Regression plot - May 2024
+Explain different types of data visualisation in Python programming language. - May 2024
+Explain following data visualization libraries in Python: Box plot, Violin plot, Pie chart, Histogram, Bar chart.  - Dec 2024
 
