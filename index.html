@@ -10,36 +10,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="top-controls">
+        <div class="exam-countdown">
+            <div class="countdown-label" id="countdown-label">DAV Exam In</div>
+            <div class="countdown-time" id="countdown-timer">--d --h --m --s</div>
+        </div>
+    </div>
+
     <div class="hero">
-        <h1 class="hero-title">Exam Questions</h1>
+        <h1 class="hero-title" id="hero-title">Exam Questions</h1>
+        <div class="hero-badge">SEM - VI (AIDS, AIML, DS)</div>
         <p class="hero-subtitle">Select a subject to view questions</p>
     </div>
 
     <div class="subjects-grid">
-        <div class="subject-card" data-subject="dc">
-            <div class="subject-code">DC</div>
-            <div class="subject-name">Distributed Computing</div>
-        </div>
-
-        <div class="subject-card" data-subject="ml">
-            <div class="subject-code">ML</div>
-            <div class="subject-name">Machine Learning</div>
-        </div>
-
-        <div class="subject-card" data-subject="sepm">
-            <div class="subject-code">SEPM</div>
-            <div class="subject-name">Software Engineering & Project Management</div>
-        </div>
-
         <div class="subject-card" data-subject="dav">
             <div class="subject-code">DAV</div>
             <div class="subject-name">Data Analytics & Visualization</div>
+            <div class="subject-date">11 May 2026, Monday</div>
         </div>
 
         <div class="subject-card" data-subject="css">
             <div class="subject-code">CSS</div>
             <div class="subject-name">Cryptography & System Security</div>
+            <div class="subject-date">13 May 2026, Wednesday</div>
         </div>
+
+        <div class="subject-card" data-subject="sepm">
+            <div class="subject-code">SEPM</div>
+            <div class="subject-name">Software Engineering & Project Management</div>
+            <div class="subject-date">15 May 2026, Friday</div>
+        </div>
+
+        <div class="subject-card" data-subject="ml">
+            <div class="subject-code">ML</div>
+            <div class="subject-name">Machine Learning</div>
+            <div class="subject-date">18 May 2026, Monday</div>
+        </div>
+
+        <div class="subject-card" data-subject="dc">
+            <div class="subject-code">DC</div>
+            <div class="subject-name">Distributed Computing</div>
+            <div class="subject-date">20 May 2026, Wednesday</div>
+        </div>
+    </div>
+
+    <div class="minimal-footer">
+        <a href="https://github.com/adityajkate/exam-questions" target="_blank" title="GitHub Repository">
+            <img src="claude-claude-ai.gif" alt="Claude Code" class="footer-gif">
+        </a>
+        <span class="footer-credit">crafted by Aditya Kate</span>
     </div>
 
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
