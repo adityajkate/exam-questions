@@ -1,0 +1,80 @@
+UNIT 1 - Introduction to Distributed Systems
+
+5 Marks :
+What are various issues in distributed system? / Explain minimum 5 issues. - May 2023, Dec 2023, May 2024
+What is distributed computing? Explain any four issues of distributed computing. - Dec 2024
+Define distributed systems. Discuss their goals and challenges. - May 2025
+Explain the client-server model in distributed systems. - May 2025
+What is middleware? Discuss the services offered by middleware. - May 2025
+
+10 Marks :
+What is distributed computing? Explain various system models of distributed computing - Dec 2023
+What are the goals of a distributed system? Explain various system models of distributed computing. - Dec 2024
+
+UNIT 2 - Communication
+
+5 Marks :
+Difference between RMI and RPC. - Dec 2023
+What is group communication? Explain 1:M and M:1 group communication. - Dec 2024.
+
+10 Marks :
+Explain the message communication model covering transient synchronous, transient asynchronous, persistent synchronous, and persistent asynchronous communication. - May 2023, May 2024
+RPC working question: What is / Define Remote Procedure Call (RPC)? Explain the working in detail. - May 2023, Dec 2023, May 2024, Dec 2024, May 2025
+Differentiate between message-oriented communication and stream-oriented communication - Dec 2023
+Discuss the role of group communication in distributed systems. - May 2025
+
+UNIT 3 - Synchronization
+
+5 Marks:
+Justify how Ricart-Agrawala’s algorithm optimizes / optimized message overhead in achieving mutual exclusion. - May 2023, Dec 2023, May 2024, Dec 2024
+Explain the election algorithm. - Dec 2023
+Explain Suzuki-Kasami algorithm. - Dec 2023
+Differentiate between physical clocks and logical clocks. - May 2025
+
+10 Marks:
+Explain Suzuki-Kasami Broadcast Algorithm of mutual exclusion. - May 2023, May 2024, Dec 2024
+Explain the process of synchronization with respect to physical and logical clocks. - May 2023.
+What is a logical clock? Why are logical clocks needed in a distributed system? Explain Lamport algorithm. - Dec 2023
+Explain Lamport’s logical clock algorithm with an example. - May 2025.
+Explain Bully Election algorithm with the help of an example. - May 2023, May 2024.
+Explain Maekawa’s algorithm in detail and also specify properties of Quorum Set. - May 2023, May 2024, Dec 2024
+Physical Clock Synchronization. - Dec 2023
+Discuss the need of the coordinator. Also explain any one algorithm for coordinator selection.- Dec 2024
+Describe the Ricart-Agrawala algorithm for distributed mutual exclusion.- May 2025
+
+UNIT 4 - Resource and Process Management
+
+5 Marks:
+What are / Describe the desirable features of a global scheduling algorithm. - May 2023, May 2024
+Compare process and thread / processes and threads. - May 2023, May 2024
+Explain code migration and its techniques. - Dec 2024
+What is process migration? Explain its significance in distributed systems. - May 2025
+
+10 Marks:
+Compare load sharing to task assignment and load balancing strategies for scheduling processes in a distributed system. -  May 2023, Dec 2023, May 2024, Dec 2024
+Write a note on / Describe code migration / Describe code migration issues in detail. -  May 2023, Dec 2023, May 2024
+Load balancing techniques. - Dec 2023
+Discuss the task assignment approach in global scheduling algorithms. - May 2025
+Explain the concept of load balancing and load sharing in distributed systems. - May 2025
+
+
+UNIT 5 - Consistency, Replication and Fault Tolerance
+
+10 Marks:
+Explain / Discuss different data-centric consistency models in detail. - May 2023, May 2024
+Discuss various client-centric consistency models. - Dec 2023
+What is the difference between data-centric consistency models and client-centric consistency models? Explain one model of each. - Dec 2024
+What is replication? Discuss data-centric consistency models.  May 2025
+Fault tolerance. Dec 2023
+What is fault tolerance? Explain various types of failure models.  - Dec 2024
+Explain the concept of fault tolerance and process resilience in distributed systems. - May 2025
+
+UNIT 6 - Distributed File Systems and Name Services 
+
+10 Marks:
+Features of DFS and model file service architecture -  May 2023, May 2024, Dec 2024
+Explain Hadoop Distributed File System (HDFS). - Dec 2023
+Discuss the architecture and features of the Hadoop Distributed File System (HDFS). - May 2025
+Explain Andrew File System (AFS) in detail. - Dec 2023, Dec 2024
+Analyze the architecture and performance of AFS compared to NFS. Discuss the advantages and limitations of each. - May 2024
+Explain the file-caching schemes used in distributed file systems. - May 2025

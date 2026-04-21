@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark: #0a0a0a;
+    --color-light: #fafaf9;
+    --color-accent: #ff4d00;
+    --color-text-primary: rgba(10, 10, 10, 1);
+    --color-text-secondary: rgba(10, 10, 10, 0.6);
+    --color-border: rgba(10, 10, 10, 0.1);
+}
+
+body {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--color-light);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.hero-title {
+    font-size: clamp(4rem, 12vw, 12rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--color-text-secondary);
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subjects-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.subject-card {
+    background: var(--color-light);
+    border: 1px solid var(--color-border);
+    padding: 3rem 2rem;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.subject-card:nth-child(1) { animation-delay: 0.1s; }
+.subject-card:nth-child(2) { animation-delay: 0.2s; }
+.subject-card:nth-child(3) { animation-delay: 0.3s; }
+.subject-card:nth-child(4) { animation-delay: 0.4s; }
+.subject-card:nth-child(5) { animation-delay: 0.5s; }
+
+.subject-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-accent);
+    box-shadow: 0 20px 60px rgba(255, 77, 0, 0.15);
+}
+
+.subject-code {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+}
+
+.subject-name {
+    font-size: 1rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+}
+
+.questions-view {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.questions-view.active {
+    display: block;
+}
+
+.back-button {
+    background: none;
+    border: 1px solid var(--color-border);
+    padding: 0.75rem 1.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.back-button:hover {
+    border-color: var(--color-accent);
+    transform: translateX(-4px);
+}
+
+.subject-header {
+    margin-bottom: 4rem;
+}
+
+.subject-header h2 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+}
+
+.unit {
+    margin-bottom: 4rem;
+}
+
+.unit-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.marks-section {
+    margin-bottom: 2.5rem;
+}
+
+.marks-header {
+    display: inline-block;
+    background: var(--color-accent);
+    color: var(--color-light);
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
+}
+
+.question {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--color-border);
+    line-height: 1.7;
+}
+
+.question:last-child {
+    border-bottom: none;
+}
+
+.diagram-note {
+    display: inline-block;
+    background: rgba(255, 77, 0, 0.1);
+    color: var(--color-accent);
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 50vh;
+        padding: 3rem 1.5rem;
+    }
+
+    .subjects-grid {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .subject-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .questions-view {
+        padding: 2rem 1.5rem;
+    }
+}

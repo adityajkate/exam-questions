@@ -1,0 +1,116 @@
+UNIT 1 - Introduction & Number Theory
+
+5 Marks :
+Describe Services and mechanisms - May 2023
+What is keyed and keyless transposition ciphers? - May 2023
+List with examples the different mechanisms to achieve security. - Dec 2023
+Explain with examples, keyed and keyless transposition ciphers - Dec 2023
+Define the security mechanisms and attacks for OSI security architecture - May 2024
+Describe steganography with example - Dec 2024
+Explain different mechanisms to achieve security. May 2025
+
+10 Marks :
+Use the playfair cipher with the keyword “example” to encipher “The algorithm name is playfair cipher”. - May 2023
+List different poly-alphabetic substitution ciphers. Encrypt “The key is hidden under the door” using playfair cipher with keyword “domestic”. - Dec 2023
+List different poly-alphabetic substitution ciphers. Use Hill cipher to encrypt the text “short”. The key to be used is “hill”. -May 2024
+Explain Hill cipher with suitable example. - Dec 2024
+List different poly-alphabetic substitution ciphers. Encrypt “The key is hidden under the door” using playfair cipher with keyword “domestic”. - May 2025
+Explain Hill cipher with example. - May 2025
+
+UNIT 2 - Block Ciphers & Public Key Cryptography
+
+5 Marks :
+ECB and CBC block cipher - May 2023
+Explain the different modes of block ciphers - Dec 2023
+Explain Triple DES in short - Dec 2023
+Explain the different modes of block ciphers. - May 2024, May 2025
+
+10 Marks :
+Explain DES algorithm with reference to: block size and key size, need of expansion permutation, role of S-box, possible attacks on DES. - May 2023
+Explain Diffie hellman key exchange algorithm. - May 2023
+User A and B want to use RSA to communicate securely. A chooses public key as (7,119) and B chooses public key as (13,221). Calculate their private keys, produce the ciphertext for m = 10, and formulate the key for authentication. - Dec 2023
+What is need of Diffie-Hellman algorithm? User A and B choose p = 23, g = 5, with secret keys 6 and 15 respectively. Compute the secret key they share. - Dec 2023
+Explain DES algorithms in detail. - May 2024
+Explain DES algorithm. What do you mean by double DES and triple DES. - Dec 2024
+Explain RSA with example. - Dec 2024
+Explain AES algorithm in detail. - Dec 2024
+Explain RSA algorithm with example. - May 2025
+What is need of Diffie-Hellman algorithm? Explain the algorithm with example. - May 2025
+Explain Triple DES in detail. - May 2025
+Define digital signature. P = 7, Q = 17, E = 5 as public key; find the cipher text for 5 and decrypt it back to get plain text - May 2024
+
+UNIT 3 - Cryptographic Hashes, Message Digests and Digital Certificates
+
+5 Marks :
+X.509 - May 2023
+Differentiate MD5 and SHA-1 algorithms. - Dec 2023
+List and explain characteristics needed in secure hash function. - Dec 2023
+Write properties of hash function. - Dec 2024
+Differentiate MD5 and SHA-1 algorithms. - May 2025
+
+10 Marks :
+What are properties of hash function? Compare MD-5 and SHA hash algorithm. - May 2023
+Give the format of X.509 digital certificate and explain the use of a digital signature in it. - Dec 2023, May 2025
+Explain MD-5 hash function. Compare with SHA 256. - May 2024
+Differentiate between MD5 and SHA256. - Dec 2024
+Write a note on Digital Certificate: X.509 and Public Key Infrastructure. - Dec 2024
+List and explain characteristics needed in secure hash function. Compare various hash in detail. - May 2025
+
+UNIT 4 - Digital signature schemes and authentication Protocols
+
+5 Marks :
+What is Digital Signature? Why digital signatures are required? - Dec 2024
+Why digital signature and digital certificates are required? - May 2023
+Differentiate between Digital signature and digital certificate - May 2024
+What do you understand by digital signatures and digital certificates? Explain digital signature scheme RSA - May 2023
+
+10 Marks :
+Define digital signature. Explain any digital signature algorithm in detail. - Dec 2023
+Explain various authentication protocols in detail. - May 2024
+Explain Needham Schroeder Authentication protocol. - May 2024, Dec 2024
+Define digital signature. Explain any digital signature algorithm in detail. - May 2025
+
+UNIT 5 - System Security
+
+5 Marks :
+List and explain security requirements of database. - Dec 2023
+List and explain vulnerabilities in windows operating system. - Dec 2023
+List various types of security that are applied on database. - May 2024
+List and explain various vulnerabilities in operating system. - Dec 2024
+List and explain security requirements of database. - May 2025
+
+10 Marks :
+Explain memory and address protection in detail. Write a note on file protection. - May 2023
+Briefly explain database security. What do you understand by multilevel database security - May 2023
+Explain memory and address protection in detail. Write a note on file protection - Dec 2023
+List and explain in detail security features of operating system - May 2024
+What are database security requirements? What do you understand by Inference attacks? Explain about multilevel database security - Dec 2024
+Explain memory and address protection in detail. Write a note on file protection - May 2025
+
+UNIT 6 - Web security
+
+5 Marks :
+Explain clickjacking and session hijacking - May 2023
+Web browser attacks - May 2023
+Cross site request forgery - May 2023
+DNS attack - May 2023
+Email Attack - May 2023
+Explain phishing and list different types of phishing techniques - Dec 2023
+Explain the different types of firewalls and mention the layer in which they operate - Dec 2023
+Define web security. Explain the role of cookies - May 2024
+Explain the different types of firewalls and layer in which it operate - May 2024
+Explain penetration testing - Dec 2024
+Explain different types of phishing techniques - May 2025
+
+10 Marks :
+Enlist various functions of protocols of SSL. Explain the phases of handshake protocol. - May 2023
+List the functions of the different protocols of SSL. Explain the handshake protocol - Dec 2023
+Explain session hijacking and management - Dec 2023
+Explain the role of SSH. What is the difference between HTTP and HTTPS? - May 2024
+Explain Penetration testing in detail - May 2024
+List and explain security requirements of a website - May 2024
+Explain web security in detail - Dec 2024
+List the functions of the different protocols of SSL. Explain the handshake protocol - May 2025
+Explain session hijacking and management - May 2025
+Write a note on user authentication and session management - Dec 2024
+

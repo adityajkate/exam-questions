@@ -1,0 +1,98 @@
+UNIT 1 - Introduction to Software Engineering
+
+5 Marks :
+Define software engineering and explain umbrella activities - May 2023, Dec 2024.
+What are different umbrella activities - May 2025
+Explain the Agile process model - Dec 2023
+Compare Agile and traditional software development models - May 2024
+Compare Agile and waterfall models - May 2025
+Scrum Model - May 2024
+Kanban model and extreme programming - May 2025
+
+10 Marks :
+Describe the waterfall model and evolutionary process model - May 2023
+Describe the waterfall model and incremental process model - Dec 2023
+What are the Agile Methodologies? Explain any of them - May 2023
+Explain with diagram CMM model - May 2024, May 2025 
+
+UNIT 2 - Requirements Analysis and Cost Estimation
+
+5 Marks :
+Explain functional and non-functional requirements - May 2023, Dec 2023
+What is cost estimation? Assume a system for simple students registration in a course is planned with approximately 10,000 LOC; compute development effort and development time. - Dec 2024
+
+10 Marks :
+Elaborate COCOMO model / method of cost estimation - May 2023, Dec 2023, Dec 2024, May 2025
+What is the importance of requirement analysis? Explain different Requirement Engineering tasks - May 2024, May 2025
+Develop SRS for University Management system - May 2023
+Develop the SRS of Hospital Management system - Dec 2023, Dec 2024
+Prepare SRS for Railway Reservation System - May 2024
+
+UNIT 3 - Design Engineering
+
+5 Marks :
+Explain the golden rules for interface design - May 2023
+What is the golden rule for User Interface Design - May 2024, May 2025
+Explain cohesion and coupling - May 2024
+What is cohesion and coupling - May 2025
+
+10 Marks :
+Explain the user interface design in details with example - Dec 2023
+Explain Software Design concepts - May 2024
+Explain Design concepts and elaborate Architectural Design styles - May 2025
+Software design patterns - Dec 2024
+
+UNIT 4 - Software Risk, Configuration Management
+
+5 Marks :
+Explain formal technical review - Dec 2024
+Compare FTR and walkthroughs - May 2025
+FTR - May 2024
+SCM Process - May 2024
+
+10 Marks :
+Illustrate the SCM process - May 2023
+Illustrate the SCM process of Software quality management - Dec 2023
+Discuss Software configuration management - Dec 2024
+Explain Software Change management with example - May 2025
+What is Risk management? Discuss Common sources of risk in IT projects - May 2023
+What is Risk management? Discuss RMMM plan for risk management - Dec 2023
+Identify any two risks in online examination system. Perform risk assessment and prepare RMMM plan for any one risk - May 2024
+Discuss different categories of risk and create a risk table for the “next generation” word processing software project - Dec 2024, May 2025
+Describe the details of FTR and Walkthrough - May 2023, Dec 2023
+Explain software quality management with QA and QC - Dec 2024
+
+UNIT 5 - Software Testing and Maintenance
+
+5 Marks :
+Difference between white box and black box testing - May 2023
+Differentiate White box and black box testing - Dec 2024
+Software Quality and quality factors - May 2025
+Software Reengineering - May 2024 
+Reverse engineering and reengineering - May 2025
+
+10 Marks :
+Differentiate between white box and black box testing - May 2024
+Write test cases for input box accepting numbers between 1 and 1000 using Equivalence Partitioning and using Boundary Value Analysis - May 2025
+Explain software reverse engineering in details - May 2023
+Explain software maintenance and different types of maintenance - Dec 2024
+Reverse engineering process - Dec 2024
+Unit testing and integration testing - Dec 2024
+
+UNIT 6 - IT Project Management and Project Scheduling 
+
+5 Marks :
+Explain the 4 P’s of Project Management - Dec 2023
+Explain W5HH Principle - May 2024
+PMBOK Knowledge Areas - May 2024, May 2025
+Define following terms: Project, Critical path, Earned value, Process, Scope - May 2024
+
+
+10 Marks :
+What are the different phases in project life cycle with suitable example - May 2023
+What are the different phases in project life cycle explain with suitable example - Dec 2023
+Explain project scheduling and describe CPM and PERT - May 2023, Dec 2023, Dec 2024
+Draw AON diagram and find the critical path. Find the total float time for each path and list down the critical and non-critical activities. Find the total duration of the project - May 2024, May 2025 [Diagram-table]
+Discuss project management techniques - Dec 2024
+
+

@@ -1,0 +1,98 @@
+UNIT 1 - Introduction to Machine Learning
+
+5 Marks :
+What is Machine Learning? Explain the steps in developing a machine learning application. - May 2023, Dec 2024
+Differentiate between supervised and unsupervised learning. - May 2023, Dec 2023, Dec 2024
+Differentiate different Machine Learning approaches. What is Cross Validation? Discuss bias variance trade-off with suitable diagram. - May 2024
+Explain the overfitting and underfitting with example. - May 2023
+Write short note on overfitting and underfitting of model. - Dec 2023
+With reference to below figure 1, 2, 3 explain under-fitting and over-fitting. Identify best fit and overfitted line. - May 2025 [Diagram]
+List various applications of machine learning. Describe the SPAM / Non-SPAM email filtering application in detail. - Dec 2024
+Build the confusion matrix and find accuracy, precision, recall and F1 score for the given spam / not-spam data. - May 2025
+
+10 Marks :
+How to calculate Performance Measures by Measuring Quality of model. - Dec 2023
+In the classification model, evaluate Accuracy, Precision, Recall and F1-Score from given TN, TP, FP and FN values. - May 2024
+
+UNIT 2 - Mathematical Foundation for ML
+
+5 Marks :
+Explain SVD and its applications. - Dec 2023, May 2024
+List out and explain the applications of SVD. - May 2023
+Explain Eigen values and vectors. - May 2024
+Diagonalize the matrix A.  May 2023, Dec 2023, Dec 2024 [Diagram]
+
+10 Marks :
+What is the trace of a matrix? What are its properties? - May 2024
+Find Singular Value Decomposition of the given matrix and indicate insights about linear transformations conveyed by this method. - May 2024 [Diagram]
+Find SVD of matrix A which is shown below. - Dec 2024 [Diagram]
+Find the eigenvalues of the 2 × 2 matrix A. Also find eigen vectors - May 2025 [Diagram]
+Diagonalize the matrix. - May 2024 [Diagram]
+
+
+UNIT 3 - Linear Models
+
+5 Marks :
+Least Square Regression for classification. - May 2023, Dec 2024
+Differentiate between Ridge and Lasso Regression / Ridge and Lasso Regression. - May 2023, Dec 2023, Dec 2024
+Discuss Support Vector Machines - May 2024
+In a SVM explain the kernel trick. - May 2025
+
+10 Marks :
+Find the least-square / linear regression equation for the given data. -  May 2023, Dec 2023, Dec 2024, May 2025 [Diagram]
+Write a short note on (a) Multivariate Regression and (b) Regularized Regression. - May 2023, Dec 2024
+Explain Least-Squares Regression for classification. - Dec 2023
+Explain the need for regularization. Compare Lasso and Ridge Regression techniques for regularization. - May 2025
+
+UNIT 4 - Clustering
+
+5 Marks :
+Explain Hebbian Learning rule / Write short note on Hebbian Learning rule. - Dec 2023, Dec 2024
+Explain the Maximization algorithm for clustering. - Dec 2023
+Write short note on maximum expectation algorithm. - May 2023
+
+10 Marks :
+Design a Hebb net to implement OR function (consider bipolar inputs and targets). - May 2023
+State the algorithm for Hebb learning rule. Design Hebb network for AND gate. State weights and bias assumptions clearly. Assume bipolar inputs and targets. - May 2025
+Explain the Expectation Maximization algorithm with neat flowchart. - May 2025
+
+UNIT 5 - Classification models
+
+5 Marks :
+Draw and explain biological neural networks and compare them with artificial neural networks. - May 2023
+Draw and explain Biological neuron. - Dec 2024
+Draw and explain a biological neuron. Compare ANN with BNN. - May 2025
+Explain in detail the MP neuron model. - May 2023, Dec 2024
+Implement XOR function using McCulloch Pitts Model. - May 2024
+ Explain Perceptron model with Bias. - Dec 2023
+What are Activation functions? Explain Binary, Bipolar, Continuous, and Ramp activation functions. - May 2023
+Artificial Neural Network(s) - May 2023, Dec 2024
+Perceptron Neural Network. - May 2023, Dec 2024
+Write a short note on LMS-Widrow Hoff. - Dec 2023
+
+
+10 Marks :
+Draw a block diagram of the Error Back Propagation Algorithm and explain with the flow chart the Error Back Propagation Concept. - May 2023, Dec 2023, Dec 2024
+What are activation functions? Explain Binary, Bipolar, Continuous, and Ramp activation functions. - Dec 2023, Dec 2024
+Discuss different activation functions used in Neural Networks (Formula, Graph and Range). - May 2024
+Implement the ANDNOT logic functions using McCulloch Pitts Model. - May 2024 
+Implement OR function using single layer perceptron - May 2024
+Explain Multilayer perceptron with a neat diagram and its working with flowchart or algorithm. - May 2024
+Explain Back Propagation Neural Network with flowchart. - May 2024
+Draw Delta Learning Rule (LMS-Widrow Hoff) model and explain it with a training process flowchart. - May 2023, Dec 2024
+Explain various activation functions with appropriate diagrams, equations, ranges and their applications in real world. - May 2025
+Explain back error propagation with neat diagram and weight updation equation. - May 2025
+Implement OR function using single layer perceptron upto 2 epochs. - May 2025
+Explain the Perceptron Neural Network. - Dec 2023
+
+UNIT 6 - Dimensionality Reduction
+
+5 Marks :
+Feature selection methods for dimensionality reduction. - May 2023, Dec 2024
+What is curse of dimensionality? - May 2025
+
+
+10 Marks :
+What is the curse of dimensionality? Explain the PCA dimensionality reduction technique in detail. - May 2023, Dec 2023, Dec 2024
+Why Dimensionality Reduction is very Important step in Machine Learning? Apply PCA on the given data and find the principal component - May 2024
+Use Principal Component Analysis to arrive at the transformed matrix for the given data - May 2025 [Diagram]
