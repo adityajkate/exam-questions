@@ -281,7 +281,7 @@ const body = document.body;
 // Create questions view container
 const questionsView = document.createElement('div');
 questionsView.className = 'questions-view';
-body.insertBefore(questionsView, document.querySelector('script'));
+body.appendChild(questionsView);
 
 // Event listeners for cards
 document.querySelectorAll('.subject-card').forEach(card => {
