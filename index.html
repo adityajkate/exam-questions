@@ -1,69 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam Questions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="top-controls">
-        <div class="exam-countdown">
-            <div class="countdown-label" id="countdown-label">DAV Exam In</div>
-            <div class="countdown-time" id="countdown-timer">--d --h --m --s</div>
-        </div>
+      <div class="exam-countdown">
+        <div class="countdown-label" id="countdown-label">DAV Exam In</div>
+        <div class="countdown-time" id="countdown-timer">--d --h --m --s</div>
+      </div>
     </div>
 
     <div class="hero">
-        <h1 class="hero-title" id="hero-title">Exam Questions</h1>
-        <div class="hero-badge">SEM - VI (AIDS, AIML, DS)</div>
-        <p class="hero-subtitle">Select a subject to view questions</p>
+      <h1 class="hero-title" id="hero-title">Exam Questions</h1>
+      <div class="hero-badge">SEM - VI (AIDS, AIML, DS)</div>
+      <p class="hero-subtitle">Select a subject to view questions</p>
     </div>
 
     <div class="subjects-grid">
-        <div class="subject-card" data-subject="dav">
-            <div class="subject-code">DAV</div>
-            <div class="subject-name">Data Analytics & Visualization</div>
-            <div class="subject-date">11 May 2026, Monday</div>
-        </div>
+      <div class="subject-card" data-subject="dav">
+        <div class="subject-code">DAV</div>
+        <div class="subject-name">Data Analytics & Visualization</div>
+        <div class="subject-date">11 May 2026, Monday</div>
+      </div>
 
-        <div class="subject-card" data-subject="css">
-            <div class="subject-code">CSS</div>
-            <div class="subject-name">Cryptography & System Security</div>
-            <div class="subject-date">13 May 2026, Wednesday</div>
-        </div>
+      <div class="subject-card" data-subject="css">
+        <div class="subject-code">CSS</div>
+        <div class="subject-name">Cryptography & System Security</div>
+        <div class="subject-date">13 May 2026, Wednesday</div>
+      </div>
 
-        <div class="subject-card" data-subject="sepm">
-            <div class="subject-code">SEPM</div>
-            <div class="subject-name">Software Engineering & Project Management</div>
-            <div class="subject-date">15 May 2026, Friday</div>
+      <div class="subject-card" data-subject="sepm">
+        <div class="subject-code">SEPM</div>
+        <div class="subject-name">
+          Software Engineering & Project Management
         </div>
+        <div class="subject-date">15 May 2026, Friday</div>
+      </div>
 
-        <div class="subject-card" data-subject="ml">
-            <div class="subject-code">ML</div>
-            <div class="subject-name">Machine Learning</div>
-            <div class="subject-date">18 May 2026, Monday</div>
-        </div>
+      <div class="subject-card" data-subject="ml">
+        <div class="subject-code">ML</div>
+        <div class="subject-name">Machine Learning</div>
+        <div class="subject-date">18 May 2026, Monday</div>
+      </div>
 
-        <div class="subject-card" data-subject="dc">
-            <div class="subject-code">DC</div>
-            <div class="subject-name">Distributed Computing</div>
-            <div class="subject-date">20 May 2026, Wednesday</div>
-        </div>
+      <div class="subject-card" data-subject="dc">
+        <div class="subject-code">DC</div>
+        <div class="subject-name">Distributed Computing</div>
+        <div class="subject-date">20 May 2026, Wednesday</div>
+      </div>
     </div>
 
     <div class="minimal-footer">
-        <a href="https://github.com/adityajkate/exam-questions" target="_blank" title="GitHub Repository">
-            <img src="claude-claude-ai.gif" alt="Claude Code" class="footer-gif">
-        </a>
-        <span class="footer-credit">crafted by Aditya Kate</span>
+      <a
+        href="https://github.com/adityajkate/exam-questions"
+        target="_blank"
+        title="GitHub Repository"
+      >
+        <img src="claude-claude-ai.gif" alt="Claude Code" class="footer-gif" />
+      </a>
+      <span class="footer-credit">crafted by Aditya Kate</span>
+      <div class="visitor-counter">
+        <svg class="counter-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/>
+        </svg>
+        <span class="counter-value" id="visitor-count">0</span>
+        <span class="counter-label">visitors</span>
+      </div>
     </div>
 
     <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
