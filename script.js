@@ -376,3 +376,33 @@ function hideSubject() {
     lenis.scrollTo(0, { immediate: true });
   }, 50);
 }
+
+// Visitor Counter Logic - Global Counter using CounterAPI.dev
+function initVisitorCounter() {
+  const counterElement = document.getElementById("visitor-count");
+  if (!counterElement) return;
+
+  // Using CounterAPI.dev - reliable and free
+  const namespace = 'adityajkate';
+  const key = 'exam-questions';
+  const apiUrl = `https://api.counterapi.dev/v1/${namespace}/${key}/up`;
+
+  // Fetch and increment the global counter
+  fetch(apiUrl)
+    .then(response => response.json())
+    .then(data => {
+      // Add 55 to the actual count to start from a higher number
+      const visitorCount = data.count + 54;
+      counterElement.textContent = visitorCount.toLocaleString();
+    })
+    .catch(error => {
+      console.error('Counter API error:', error);
+      // Fallback to a placeholder if API fails
+      counterElement.textContent = '---';
+    });
+}
+
+// Initialize counter when DOM is ready
+document.addEventListener("DOMContentLoaded", () => {
+  initVisitorCounter();
+});
