@@ -451,3 +451,37 @@ body.preloading .hero-subtitle {
     margin-left: 0;
     transform: translateY(-14px);
 }
+
+.visitor-counter {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+    font-size: 0.65rem;
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.visitor-counter:hover {
+    opacity: 1;
+}
+
+.counter-icon {
+    width: 11px;
+    height: 11px;
+    opacity: 0.5;
+}
+
+.counter-value {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    opacity: 0.8;
+}
+
+.counter-label {
+    opacity: 0.7;
+}
