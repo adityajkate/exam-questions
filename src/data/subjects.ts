@@ -2167,7 +2167,7 @@ export const subjects: Subject[] = [
       },
       {
         "number": 6,
-        "title": "UNIT 6 - Applications (preferably for Indian regional languages)",
+        "title": "UNIT 6 - Applications",
         "questions5": [
           {
             "id": "nlp-u6-5m-1",
