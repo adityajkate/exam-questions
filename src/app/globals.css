@@ -476,6 +476,25 @@ body.dark .marks-header.ten-marks {
   opacity: 0.7;
 }
 
+/* KaTeX Math Styling */
+.katex {
+  font-size: 1.05em;
+  color: var(--color-text-primary);
+}
+
+.math-inline {
+  display: inline-block;
+  margin: 0 0.1em;
+  vertical-align: -0.1em;
+}
+
+.math-display {
+  display: block;
+  margin: 0.75rem 0;
+  text-align: center;
+  overflow-x: auto;
+}
+
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

@@ -115,8 +115,8 @@ export const subjects: Subject[] = [
           {
             "id": "dl-u2-5m-1",
             "number": 1,
-            "text": "Suppose we have N input-output pairs. Our goal is to find the parameters that predict the output y from the input x according to some function y = x^w. Calculate the sum-of squared error function E between predictions y and inputs x. The parameter w can be determined iteratively using gradient descent. For the calculated error function E, derive the gradient descent update rule w ← w - α ∂E/∂w",
-            "cleanText": "Suppose we have N input-output pairs. Our goal is to find the parameters that predict the output y from the input x according to some function y = x^w. Calculate the sum-of squared error function E between predictions y and inputs x. The parameter w can be determined iteratively using gradient descent. For the calculated error function E, derive the gradient descent update rule w ← w - α ∂E/∂w",
+            "text": "Suppose we have $N$ input-output pairs. Our goal is to find the parameters that predict the output $y$ from the input $x$ according to some function $y = x^w$. Calculate the sum-of-squared error function $E$ between predictions $y$ and inputs $x$. The parameter $w$ can be determined iteratively using gradient descent. For the calculated error function $E$, derive the gradient descent update rule $w \\leftarrow w - \\eta \\dfrac{\\partial E}{\\partial w}$.",
+            "cleanText": "Suppose we have $N$ input-output pairs. Our goal is to find the parameters that predict the output $y$ from the input $x$ according to some function $y = x^w$. Calculate the sum-of-squared error function $E$ between predictions $y$ and inputs $x$. The parameter $w$ can be determined iteratively using gradient descent. For the calculated error function $E$, derive the gradient descent update rule $w \\leftarrow w - \\eta \\dfrac{\\partial E}{\\partial w}$.",
             "marks": 5,
             "years": [
               "Dec 2023"

@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { getSubjectBySlug, getAllSubjects } from '../../data/subjects';
 import { CountdownWidget } from '../../components/CountdownWidget';
 import { Footer } from '../../components/Footer';
+import { MathText } from '../../components/MathText';
 import type { Metadata } from 'next';
 
 interface PageProps {
@@ -164,7 +165,7 @@ export default async function SubjectPage({ params }: PageProps) {
                   </div>
                   {unit.questions5.map((q) => (
                     <div key={q.id} className="question">
-                      <strong>{q.number}.</strong> {q.cleanText}{' '}
+                      <strong>{q.number}.</strong> <MathText content={q.cleanText} />{' '}
                       {q.years.map((yr, yIdx) => (
                         <span key={yIdx} className="year-badge">
                           {yr}
@@ -185,7 +186,7 @@ export default async function SubjectPage({ params }: PageProps) {
                   </div>
                   {unit.questions10.map((q) => (
                     <div key={q.id} className="question">
-                      <strong>{q.number}.</strong> {q.cleanText}{' '}
+                      <strong>{q.number}.</strong> <MathText content={q.cleanText} />{' '}
                       {q.years.map((yr, yIdx) => (
                         <span key={yIdx} className="year-badge">
                           {yr}
