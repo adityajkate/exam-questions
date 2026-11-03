@@ -506,9 +506,6 @@ body.dark .diagram-header {
 }
 
 .footer-credit {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
   font-size: 0.65rem;
   color: var(--color-text-secondary);
   opacity: 0.85;
@@ -522,39 +519,6 @@ body.dark .diagram-header {
 .footer-credit:hover {
   opacity: 1;
   color: var(--color-text-primary);
-}
-
-.love-text {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.22rem;
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
-.love-heart-svg {
-  width: 10px;
-  height: 10px;
-  fill: var(--color-accent);
-  display: inline-block;
-  vertical-align: middle;
-  animation: brutalistHeartbeat 2.2s infinite ease-in-out;
-  transform-origin: center;
-}
-
-@keyframes brutalistHeartbeat {
-  0% { transform: scale(1); }
-  14% { transform: scale(1.28); }
-  28% { transform: scale(1); }
-  42% { transform: scale(1.16); }
-  70% { transform: scale(1); }
-  100% { transform: scale(1); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .love-heart-svg {
-    animation: none;
-  }
 }
 
 .visitor-counter {
