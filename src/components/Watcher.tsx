@@ -299,21 +299,28 @@ export function Watcher({
       el.closest<HTMLElement>('.bench-card, .dtl-block, .board, .sf-thumb, body') ??
       document.body;
 
-    const aim = (e: PointerEvent) => {
+    let lastActive = performance.now();
+    let isInteracting = false;
+    let glanceTimer: number | null = null;
+
+    const updateTarget = (clientX: number, clientY: number) => {
+      lastActive = performance.now();
+      isInteracting = true;
+
       const f = frame.getBoundingClientRect();
       if (
-        e.clientX < f.left ||
-        e.clientX > f.right ||
-        e.clientY < f.top ||
-        e.clientY > f.bottom
+        clientX < f.left ||
+        clientX > f.right ||
+        clientY < f.top ||
+        clientY > f.bottom
       ) {
         t.tx = 0;
         t.ty = 0;
         return;
       }
       const r = el.getBoundingClientRect();
-      const dx = e.clientX - (r.left + r.width / 2);
-      const dy = e.clientY - (r.top + r.height / 2);
+      const dx = clientX - (r.left + r.width / 2);
+      const dy = clientY - (r.top + r.height / 2);
       const d = Math.hypot(dx, dy) || 1;
       const reach = Math.max(60, Math.min(f.width, f.height) * 0.28);
       const far = Math.min(
@@ -323,37 +330,74 @@ export function Watcher({
       t.tx = (dx / d) * far;
       t.ty = (dy / d) * far;
     };
+
+    const aimPointer = (e: PointerEvent) => {
+      updateTarget(e.clientX, e.clientY);
+    };
+
+    const aimTouch = (e: TouchEvent) => {
+      if (e.touches && e.touches.length > 0) {
+        updateTarget(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    };
+
+    const onRelease = () => {
+      isInteracting = false;
+      setTimeout(() => {
+        if (!isInteracting && performance.now() - lastActive > 800) {
+          t.tx = 0;
+          t.ty = 0;
+        }
+      }, 900);
+    };
+
     const rest = () => {
       t.tx = 0;
       t.ty = 0;
     };
 
-    if (idle) {
-      let glance = 0;
-      const look = () => {
-        const a = Math.random() * Math.PI * 2;
-        const far = 0.45 + Math.random() * 0.25;
-        t.tx = Math.cos(a) * far;
-        t.ty = Math.sin(a) * far;
-        glance = window.setTimeout(() => {
-          rest();
-          glance = window.setTimeout(look, 5000 - 900);
-        }, 900);
-      };
-      glance = window.setTimeout(look, 5000);
-      return () => {
-        cancelAnimationFrame(raf);
-        unwatch();
-        window.clearTimeout(glance);
-      };
-    }
+    // Autonomous lifelike glancing loop (for mobile and idle periods)
+    const scheduleGlance = () => {
+      const interval = 2400 + Math.random() * 2600;
+      glanceTimer = window.setTimeout(() => {
+        const now = performance.now();
+        // If user hasn't actively moved/touched for > 2s:
+        if (now - lastActive > 2000) {
+          const angle = Math.random() * Math.PI * 2;
+          const strength = 0.35 + Math.random() * 0.35;
+          t.tx = Math.cos(angle) * strength;
+          t.ty = Math.sin(angle) * strength;
 
-    window.addEventListener('pointermove', aim, { passive: true });
+          const hold = 800 + Math.random() * 600;
+          setTimeout(() => {
+            if (performance.now() - lastActive > hold) {
+              t.tx = 0;
+              t.ty = 0;
+            }
+          }, hold);
+        }
+        scheduleGlance();
+      }, interval);
+    };
+
+    scheduleGlance();
+
+    window.addEventListener('pointermove', aimPointer, { passive: true });
+    window.addEventListener('pointerdown', aimPointer, { passive: true });
+    window.addEventListener('touchstart', aimTouch, { passive: true });
+    window.addEventListener('touchmove', aimTouch, { passive: true });
+    window.addEventListener('touchend', onRelease, { passive: true });
     document.documentElement.addEventListener('pointerleave', rest);
+
     return () => {
       cancelAnimationFrame(raf);
       unwatch();
-      window.removeEventListener('pointermove', aim);
+      if (glanceTimer) window.clearTimeout(glanceTimer);
+      window.removeEventListener('pointermove', aimPointer);
+      window.removeEventListener('pointerdown', aimPointer);
+      window.removeEventListener('touchstart', aimTouch);
+      window.removeEventListener('touchmove', aimTouch);
+      window.removeEventListener('touchend', onRelease);
       document.documentElement.removeEventListener('pointerleave', rest);
     };
   }, [still, idle, within]);
