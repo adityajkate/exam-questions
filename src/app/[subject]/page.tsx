@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getSubjectBySlug, getAllSubjects } from '../../data/subjects';
 import { CountdownWidget } from '../../components/CountdownWidget';
-import { Footer } from '../../components/Footer';
 import { MathText } from '../../components/MathText';
 import type { Metadata } from 'next';
 
@@ -285,9 +284,15 @@ export default async function SubjectPage({ params }: PageProps) {
             </div>
           ))
         )}
+        <div className="subject-end-banner">
+          <p className="end-banner-quote">
+            That’s enough, I guess... go sleep now, syllabus is an ocean anyway.
+          </p>
+          <Link href="/" className="end-banner-back">
+            ← Back to all subjects
+          </Link>
+        </div>
       </div>
-
-      <Footer />
     </>
   );
 }
