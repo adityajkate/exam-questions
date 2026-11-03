@@ -27,25 +27,4 @@
 
 ---
 
-### Tech Stack
-- **Framework:** Next.js (App Router, SSG)
-- **Styling:** Tailwind CSS
-- **Language:** TypeScript
-- **Icons:** Lucide React
-- **Design System:** Space Grotesk, Neo-Brutalist / Editorial Minimalist with safety orange accents
 
-### Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Start production server
-npm run start
-```
