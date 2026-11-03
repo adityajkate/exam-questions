@@ -1436,19 +1436,7 @@ export const subjects: Subject[] = [
       {
         "number": 6,
         "title": "UNIT 6 - Real-Time Big Data Models",
-        "questions5": [
-          {
-            "id": "bda-u6-5m-1",
-            "number": 1,
-            "text": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
-            "cleanText": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          }
-        ],
+        "questions5": [],
         "questions10": [
           {
             "id": "bda-u6-10m-1",
@@ -1575,29 +1563,6 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u6-10m-12",
             "number": 12,
-            "text": "List and explain the functions provided by R to combine different sets of data, and write a script to sort values contained in a vector in ascending and descending order.",
-            "cleanText": "List and explain the functions provided by R to combine different sets of data, and write a script to sort values contained in a vector in ascending and descending order.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "bda-u6-10m-13",
-            "number": 13,
-            "text": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
-            "cleanText": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": true,
-            "diagramUrl": "/diagrams/BDA/table_BDA.png"
-          },
-          {
-            "id": "bda-u6-10m-14",
-            "number": 14,
             "text": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
             "cleanText": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
             "marks": 10,
@@ -1608,7 +1573,50 @@ export const subjects: Subject[] = [
             "diagramUrl": "/diagrams/BDA/CPM_Numerical_2.png"
           }
         ],
-        "totalQuestions": 15
+        "totalQuestions": 12
+      },
+      {
+        "number": 7,
+        "title": "R PROGRAMMING",
+        "questions5": [
+          {
+            "id": "bda-r-5m-1",
+            "number": 1,
+            "text": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
+            "cleanText": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
+            "marks": 5,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          }
+        ],
+        "questions10": [
+          {
+            "id": "bda-r-10m-1",
+            "number": 1,
+            "text": "List and explain the functions provided by R to combine different sets of data, and write a script to sort values contained in a vector in ascending and descending order.",
+            "cleanText": "List and explain the functions provided by R to combine different sets of data, and write a script to sort values contained in a vector in ascending and descending order.",
+            "marks": 10,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-r-10m-2",
+            "number": 2,
+            "text": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
+            "cleanText": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
+            "marks": 10,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": true,
+            "diagramUrl": "/diagrams/BDA/table_BDA.png"
+          }
+        ],
+        "totalQuestions": 3
       }
     ],
     "total5M": 21,
