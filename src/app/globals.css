@@ -380,6 +380,7 @@ body.dark .marks-header.ten-marks {
   line-height: 1.7;
   transition: all 0.3s ease;
   color: var(--color-text-primary);
+  white-space: pre-line;
 }
 
 .question:last-child {

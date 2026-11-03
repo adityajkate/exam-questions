@@ -1574,13 +1574,14 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u6-10m-13",
             "number": 13,
-            "text": "Create a Data frame in R for tracking project information (ProjectId, ProjectName, Budget) and show the structure and summary statistics of the Data Frame.",
-            "cleanText": "Create a Data frame in R for tracking project information (ProjectId, ProjectName, Budget) and show the structure and summary statistics of the Data Frame.",
+            "text": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
+            "cleanText": "The project manager at ABC Corp, Mr. Thomas, needs to track information about ongoing projects in the organization. He has the following details about current projects in a table format:\n\ni) Create a Data Frame in R for the above project data and display the output.\nii) Show the structure and summary statistics of the Data Frame created.",
             "marks": 10,
             "years": [
               "Dec 2024 (2)"
             ],
-            "hasDiagram": false
+            "hasDiagram": true,
+            "diagramUrl": "/diagrams/BDA/table_BDA.png"
           },
           {
             "id": "bda-u6-10m-14",
