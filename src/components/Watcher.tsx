@@ -57,7 +57,7 @@ const LINES = [
   'Step 1: Read paper. Step 2: Stare at ceiling. Step 3: Improvise.',
   'Dont panic, mutual suffering builds character.',
   'You clicked me again. Thats 5 minutes of study time gone.',
-  'KT is temporary, but these question banks are forever.',
+  'KT is temporary, but these PYQs are forever.',
   'Legend says if you write Hence Proved, you get 2 bonus marks.',
   'Relax, passing marks is only 32. You got this.',
   'Trust me, even the topper doesnt know unit 5.',
