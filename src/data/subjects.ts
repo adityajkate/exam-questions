@@ -1436,7 +1436,19 @@ export const subjects: Subject[] = [
       {
         "number": 6,
         "title": "UNIT 6 - Real-Time Big Data Models",
-        "questions5": [],
+        "questions5": [
+          {
+            "id": "bda-u6-5m-1",
+            "number": 1,
+            "text": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
+            "cleanText": "Write an R script to sort the values contained in the following vector in ascending order and descending order: (46, 23, 15, 38, 98, 56, 28, 78). Demonstrate the output.",
+            "marks": 5,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          }
+        ],
         "questions10": [
           {
             "id": "bda-u6-10m-1",
@@ -1596,12 +1608,12 @@ export const subjects: Subject[] = [
             "diagramUrl": "/diagrams/BDA/CPM_Numerical_2.png"
           }
         ],
-        "totalQuestions": 14
+        "totalQuestions": 15
       }
     ],
-    "total5M": 20,
+    "total5M": 21,
     "total10M": 52,
-    "totalQuestions": 72
+    "totalQuestions": 73
   },
   {
     "slug": "nlp",
