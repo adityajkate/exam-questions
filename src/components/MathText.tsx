@@ -57,3 +57,4 @@ export function MathText({ content, className }: MathTextProps) {
     </span>
   );
 }
+

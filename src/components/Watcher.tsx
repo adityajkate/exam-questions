@@ -62,6 +62,19 @@ const LINES = [
   'Relax, passing marks is only 32. You got this.',
   'Trust me, even the topper doesnt know unit 5.',
   'Made with zero sleep by Aditya :)',
+  'Bro is analyzing the mascot instead of analyzing Big Data.',
+  'If stuck, draw a flow chart. Examiners love flow charts.',
+  'Remember, neat diagrams with arrows fetch 4 marks alone.',
+  'If you dont know the answer, explain the question in detail.',
+  'Engineering rule 101: Never leave the answer sheet empty.',
+  'Black pen, blue pen, scale, pencil. Hall ticket kidhar hai?',
+  'Why study 5 units when Mumbai University repeats the same 3?',
+  'Attendance criteria was just a suggestion anyway.',
+  'Syllabus is an ocean, you studied a glass, exam is a river.',
+  'Dear examiner, please pass me, Sem 8 me sach me padhunga.',
+  'Dont check marks weightage now, ignorance is peace.',
+  'Brain during study: 404 Not Found. Brain in exam: pure panic.',
+  'Viva examiner: Explain conceptually. Me: Sir, in real life...',
 ];
 
 const TINTS = ['#0a0a0a'];
