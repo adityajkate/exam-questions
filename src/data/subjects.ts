@@ -1422,17 +1422,6 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u5-10m-7",
             "number": 7,
-            "text": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
-            "cleanText": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "bda-u5-10m-8",
-            "number": 8,
             "text": "Justify the use of a Content-Based Recommendation System with a specific case study.",
             "cleanText": "Justify the use of a Content-Based Recommendation System with a specific case study.",
             "marks": 10,
@@ -1442,7 +1431,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 10
+        "totalQuestions": 9
       },
       {
         "number": 6,
@@ -1591,9 +1580,20 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u6-10m-14",
+            "number": 14,
+            "text": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
+            "cleanText": "Write an algorithm for the Clique Percolation Method and discover the communities in a given graph using Clique Percolation Method with clique k=3.",
+            "marks": 10,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 13
+        "totalQuestions": 14
       }
     ],
     "total5M": 20,
