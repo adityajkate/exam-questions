@@ -1,0 +1,125 @@
+.eyt {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--eyt-size, 50px);
+  height: var(--eyt-size, 50px);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.eyt-ball {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: block;
+  filter: drop-shadow(0 4px 10px rgba(10, 10, 10, 0.06));
+  transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.eyt-ball[data-poke] {
+  cursor: pointer;
+}
+
+.eyt-ball[data-poke]:active {
+  transform: scale(0.92);
+}
+
+/* Background matching the webpage with small border thickness */
+.eyt-body {
+  fill: var(--color-light, #fafaf9);
+  stroke: #0a0a0a;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  transition: stroke 0.25s ease, fill 0.25s ease;
+}
+
+.eyt:hover .eyt-body {
+  stroke: #ff4d00;
+}
+
+/* Black eyes */
+.eyt-eye {
+  fill: #0a0a0a;
+}
+
+.eyt-say {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px) scale(0.94);
+  background: #0a0a0a;
+  color: #fafaf9;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 7px 14px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 77, 0, 0.45);
+  white-space: normal;
+  text-align: center;
+  word-break: break-word;
+  width: max-content;
+  max-width: min(320px, calc(100vw - 32px));
+  pointer-events: none;
+  opacity: 0;
+  transform-origin: center bottom;
+  transition:
+    opacity 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 100;
+  box-shadow: 0 6px 20px rgba(10, 10, 10, 0.22);
+  letter-spacing: -0.01em;
+}
+
+.eyt-say[data-on] {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0) scale(1);
+}
+
+/* Speech bubble arrow pointing down to Watcher */
+.eyt-say::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #0a0a0a;
+}
+
+.eyt-caret {
+  display: inline-block;
+  width: 2px;
+  height: 0.9em;
+  background: #ff4d00;
+  margin-left: 3px;
+  vertical-align: -1px;
+  animation: eyt-blink 0.7s infinite;
+}
+
+@keyframes eyt-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .eyt-say {
+    font-size: 0.74rem;
+    padding: 6px 12px;
+    max-width: min(280px, calc(100vw - 28px));
+    line-height: 1.35;
+  }
+}
