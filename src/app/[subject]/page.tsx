@@ -9,6 +9,14 @@ interface PageProps {
   params: Promise<{ subject: string }>;
 }
 
+const SUBJECT_END_NOTES: Record<string, string> = {
+  dl: "That’s enough, I guess... your neural network has converged, loss is minimal!",
+  bda: "That’s enough, I guess... you've reduced enough maps for today, buffer is 100% full!",
+  nlp: "That’s enough, I guess... maximum entropy reached, zero perplexity tomorrow!",
+  gt: "That’s enough, I guess... closing this tab is officially your dominant strategy!",
+  mis: "That’s enough, I guess... meeting adjourned, you're the CEO of this exam now!",
+};
+
 export async function generateStaticParams() {
   const subjects = getAllSubjects();
   return subjects.map((s) => ({
@@ -51,6 +59,10 @@ export default async function SubjectPage({ params }: PageProps) {
   if (!subject) {
     notFound();
   }
+
+  const endNote =
+    SUBJECT_END_NOTES[subject.slug.toLowerCase()] ||
+    "That’s enough, I guess... take a deep breath, you've got this!";
 
   const subjectJsonLd = {
     '@context': 'https://schema.org',
@@ -285,9 +297,7 @@ export default async function SubjectPage({ params }: PageProps) {
           ))
         )}
         <div className="subject-end-banner">
-          <p className="end-banner-quote">
-            That’s enough, I guess... go sleep now, syllabus is an ocean anyway.
-          </p>
+          <p className="end-banner-quote">{endNote}</p>
           <Link href="/" className="end-banner-back">
             ← Back to all subjects
           </Link>
