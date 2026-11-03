@@ -1491,7 +1491,8 @@ export const subjects: Subject[] = [
             "years": [
               "May 2024"
             ],
-            "hasDiagram": false
+            "hasDiagram": true,
+            "diagramUrl": "/diagrams/BDA/CPM_Numerical.png"
           },
           {
             "id": "bda-u6-10m-6",

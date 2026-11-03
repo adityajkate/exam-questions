@@ -406,6 +406,77 @@ body.dark .marks-header.ten-marks {
   white-space: nowrap;
 }
 
+/* Question Diagrams */
+.question-diagram-wrapper {
+  margin-top: 1.25rem;
+  max-width: 720px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-surface);
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.diagram-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.85rem;
+  background: rgba(10, 10, 10, 0.04);
+  border-bottom: 1.5px solid var(--color-border);
+}
+
+body.dark .diagram-header {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.diagram-tag {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+}
+
+.diagram-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: opacity 0.2s ease;
+}
+
+.diagram-expand-btn:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+.diagram-image-container {
+  padding: 0.75rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.question-diagram-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.question-diagram-img:hover {
+  transform: scale(1.01);
+}
+
 /* Footer */
 .minimal-footer {
   display: flex;

@@ -6,6 +6,7 @@ export interface Question {
   marks: 5 | 10;
   years: string[];
   hasDiagram?: boolean;
+  diagramUrl?: string;
 }
 
 export interface Unit {
