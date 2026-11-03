@@ -5,47 +5,57 @@ import { Watcher } from './Watcher';
 import './Watcher.css';
 
 const BASE_OFFSET = 0;
+const API_URL =
+  'https://countapi.mileshilliard.com/api/v1/hit/adityajkate_exam_questions_prod';
+
+// Module-level guard to prevent React 19 / StrictMode double-hit in dev (< 2.5s)
+let lastHitTime = 0;
+let cachedLiveCount: number | null = null;
 
 export function Footer() {
   const [visitorCount, setVisitorCount] = useState<string>('0');
-  const hasRequested = useRef(false);
+  const hasMounted = useRef(false);
 
   useEffect(() => {
-    // Guard against React 19 / StrictMode double-mounting
-    if (hasRequested.current) return;
-    hasRequested.current = true;
+    // Guard within component lifecycle
+    if (hasMounted.current) return;
+    hasMounted.current = true;
 
     let isMounted = true;
 
-    // Check if this visitor was already counted during this browser session
-    let isNewSession = true;
+    // Clear legacy session lock from earlier tests
     try {
-      if (sessionStorage.getItem('has_counted_visit_prod')) {
-        isNewSession = false;
-      }
+      sessionStorage.removeItem('has_counted_visit_prod');
     } catch {
-      // ignore sessionStorage access errors
+      // ignore
     }
 
-    // Call /hit/ to increment on first visit in session, or /get/ to read without incrementing on refresh
-    const endpoint = isNewSession ? 'hit' : 'get';
-    const apiUrl = `https://countapi.mileshilliard.com/api/v1/${endpoint}/adityajkate_exam_questions_prod`;
-
-    let cachedCount = BASE_OFFSET;
+    // Read cached count from localStorage for instant display
     try {
       const saved = localStorage.getItem('exam_visitor_count_prod');
       if (saved) {
         const parsed = parseInt(saved, 10);
-        if (!Number.isNaN(parsed)) {
-          cachedCount = parsed;
-          setVisitorCount(cachedCount.toLocaleString());
+        if (!Number.isNaN(parsed) && parsed >= 0) {
+          setVisitorCount(parsed.toLocaleString());
         }
       }
     } catch {
-      // ignore localStorage errors
+      // ignore
     }
 
-    fetch(apiUrl)
+    const now = Date.now();
+    // If hit was called less than 2.5s ago (e.g. React StrictMode double-mount),
+    // use /get/ instead of /hit/ to guarantee exactly +1 count
+    const isRapidRemount = now - lastHitTime < 2500;
+    const requestUrl = isRapidRemount
+      ? 'https://countapi.mileshilliard.com/api/v1/get/adityajkate_exam_questions_prod'
+      : API_URL;
+
+    if (!isRapidRemount) {
+      lastHitTime = now;
+    }
+
+    fetch(requestUrl)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Counter API returned status ${response.status}`);
@@ -57,11 +67,9 @@ export function Footer() {
         const val = Number(data?.value ?? data?.count);
         if (!Number.isNaN(val) && val >= 0) {
           const total = val + BASE_OFFSET;
+          cachedLiveCount = total;
           try {
             localStorage.setItem('exam_visitor_count_prod', String(total));
-            if (isNewSession) {
-              sessionStorage.setItem('has_counted_visit_prod', 'true');
-            }
           } catch {
             // ignore storage errors
           }
@@ -70,8 +78,9 @@ export function Footer() {
       })
       .catch(() => {
         if (!isMounted) return;
-        const currentCount = cachedCount || (isNewSession ? 1 : 0);
-        setVisitorCount(currentCount.toLocaleString());
+        if (cachedLiveCount !== null) {
+          setVisitorCount(cachedLiveCount.toLocaleString());
+        }
       });
 
     return () => {
