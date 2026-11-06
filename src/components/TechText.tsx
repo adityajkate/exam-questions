@@ -164,7 +164,7 @@ export const TechText: React.FC<TechTextProps> = ({
     let guideAlpha = 0;
     const kicks = [];
     const press = { x: 0, y: 0, time: 0, index: -1 };
-    const pointer = { x: 0, y: 0, inside: false };
+    const pointer = { x: 0, y: 0, inside: false, touch: false };
     const grab = { x: 0, y: 0 };
     const lens = { x: 0, y: 0 };
     const frame = { x1: 0, y1: 0, x2: 0, y2: 0, alpha: 0, index: -1 };
@@ -339,8 +339,10 @@ export const TechText: React.FC<TechTextProps> = ({
       return next;
     };
 
-    const glyphAt = (x, y) => {
-      if (!word || y < word.top - 24 || y > word.bottom + 24) return -1;
+    const glyphAt = (x, y, isTouch = false) => {
+      const vPad = isTouch ? 40 : 24;
+      const hThreshold = isTouch ? 44 : 28;
+      if (!word || y < word.top - vPad || y > word.bottom + vPad) return -1;
       let best = -1;
       let bestDistance = Infinity;
       glyphs.forEach((glyph, i) => {
@@ -352,7 +354,7 @@ export const TechText: React.FC<TechTextProps> = ({
           best = i;
         }
       });
-      return bestDistance < 28 ? best : -1;
+      return bestDistance < hThreshold ? best : -1;
     };
 
     const falloff = (target, cx, cy, radius, strength, softness) => {
@@ -796,7 +798,7 @@ export const TechText: React.FC<TechTextProps> = ({
         });
       }
 
-      const focus = introducing ? typing : dragging >= 0 ? dragging : active ? glyphAt(lens.x, lens.y) : -1;
+      const focus = introducing ? typing : dragging >= 0 ? dragging : active ? glyphAt(lens.x, lens.y, pointer.touch) : -1;
       if (focus >= 0 && s.selection) {
         const glyph = glyphs[focus];
         const bx1 = glyph.box.x1 + glyph.offset.x - 6;
@@ -917,32 +919,47 @@ export const TechText: React.FC<TechTextProps> = ({
       wake();
     };
 
+    let touchFadeTimer = 0;
+
     const locate = e => {
       const rect = container.getBoundingClientRect();
       pointer.x = e.clientX - rect.left;
       pointer.y = e.clientY - rect.top;
     };
     const onMove = e => {
+      if (touchFadeTimer) {
+        clearTimeout(touchFadeTimer);
+        touchFadeTimer = 0;
+      }
+      pointer.touch = e.pointerType === 'touch';
       locate(e);
       pointer.inside = true;
       wake();
     };
     const onLeave = () => {
       if (dragging >= 0) return;
-      pointer.inside = false;
-      wake();
+      if (!pointer.touch) {
+        pointer.inside = false;
+        wake();
+      }
     };
     const onDown = e => {
+      if (touchFadeTimer) {
+        clearTimeout(touchFadeTimer);
+        touchFadeTimer = 0;
+      }
+      const isTouch = e.pointerType === 'touch';
+      pointer.touch = isTouch;
       locate(e);
       pointer.inside = true;
       const s = settingsRef.current;
-      const primary = e.pointerType !== 'mouse' || e.button === 0;
-      const index = introducing || !primary ? -1 : glyphAt(pointer.x, pointer.y);
+      const primary = isTouch || e.button === 0;
+      const index = introducing || !primary ? -1 : glyphAt(pointer.x, pointer.y, isTouch);
       press.x = pointer.x;
       press.y = pointer.y;
       press.time = performance.now();
       press.index = index;
-      if (s?.draggable && index >= 0) {
+      if (s?.draggable && !isTouch && index >= 0) {
         dragging = index;
         grab.x = pointer.x - glyphs[index].offset.x;
         grab.y = pointer.y - glyphs[index].offset.y;
@@ -954,11 +971,22 @@ export const TechText: React.FC<TechTextProps> = ({
       if (dragging >= 0) {
         dragging = -1;
         container.releasePointerCapture?.(e.pointerId);
+      }
+      const isTouch = e.pointerType === 'touch' || pointer.touch;
+      if (isTouch) {
+        if (touchFadeTimer) clearTimeout(touchFadeTimer);
+        touchFadeTimer = window.setTimeout(() => {
+          pointer.inside = false;
+          pointer.touch = false;
+          wakeRef.current();
+        }, 850);
+      } else {
         const rect = container.getBoundingClientRect();
         pointer.inside =
           e.clientX >= rect.left && e.clientX <= rect.right && e.clientY >= rect.top && e.clientY <= rect.bottom;
       }
       if (
+        !isTouch &&
         e.type === 'pointerup' &&
         press.index >= 0 &&
         settingsRef.current?.clickKick &&
@@ -999,6 +1027,7 @@ export const TechText: React.FC<TechTextProps> = ({
     return () => {
       alive = false;
       cancelAnimationFrame(raf);
+      if (touchFadeTimer) clearTimeout(touchFadeTimer);
       wakeRef.current = () => {};
       resizeObserver.disconnect();
       intersectionObserver.disconnect();

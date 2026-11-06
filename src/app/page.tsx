@@ -26,7 +26,8 @@ export default function HomePage() {
             specks={15}
             intro="none"
             introDuration={2}
-            clickKick
+            clickKick={false}
+            draggable={false}
             guides={false}
             sweep={false}
           />
