@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,13 +19,15 @@
   --badge-bg: rgba(10, 10, 10, 0.05);
   --badge-border: rgba(10, 10, 10, 0.1);
   --badge-text: rgba(10, 10, 10, 0.65);
-
 }
 
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -31,7 +35,10 @@ body {
   background-color: var(--color-light);
   color: var(--color-text-primary);
   line-height: 1.6;
+  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
+  position: relative;
 }
 
 /* Exam Countdown */
@@ -112,6 +119,8 @@ body {
   align-items: center;
   padding: 4rem 2rem;
   text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .hero-title {
@@ -128,6 +137,7 @@ body {
   z-index: 2;
   position: relative;
   color: var(--color-text-primary);
+  overflow: hidden;
 }
 
 .sr-only {
@@ -155,14 +165,15 @@ body {
   position: relative;
   display: inline-block;
   padding-bottom: 0.2rem;
+  max-width: 100%;
 }
 
 .hero-badge::after {
   content: '';
   position: absolute;
   bottom: -4px;
-  left: -5%;
-  width: 110%;
+  left: 0;
+  width: 100%;
   height: 6px;
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 10' preserveAspectRatio='none'%3E%3Cpath d='M 1 8 C 30 0, 70 10, 99 4' stroke='%23ff4d00' stroke-width='2.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat center;
   background-size: 100% 100%;
@@ -224,21 +235,29 @@ body {
 @media (max-width: 768px) {
   .hero {
     min-height: 50vh;
-    padding: 5rem 1.5rem 3rem 1.5rem;
+    padding: 5rem 1rem 3rem 1rem;
   }
 
   .subjects-grid {
     grid-template-columns: 1fr;
-    padding: 1.5rem;
-    gap: 1.5rem;
+    padding: 1rem;
+    gap: 1.25rem;
   }
 
   .subject-card {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1.25rem;
   }
 
   .questions-view {
-    padding: 2rem 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .question {
+    margin: 0;
+  }
+
+  .question:hover {
+    transform: none;
   }
 }
 
@@ -538,12 +557,14 @@ body.dark .diagram-header {
   justify-content: center;
   align-items: center;
   gap: 0;
-  padding: 2rem;
+  padding: 2rem 1rem;
   margin-top: 1rem;
   font-size: 0.75rem;
   color: var(--color-text-secondary);
   font-weight: 500;
   opacity: 0.7;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .minimal-footer a {
