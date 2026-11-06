@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Watcher } from './Watcher';
 import './Watcher.css';
 
-const BASE_OFFSET = 0;
+const DEFAULT_COUNT = 367;
 const API_URL =
   'https://countapi.mileshilliard.com/api/v1/hit/adityajkate_exam_questions_prod';
 
@@ -13,29 +13,32 @@ let lastHitTime = 0;
 let cachedLiveCount: number | null = null;
 
 export function Footer() {
-  const [visitorCount, setVisitorCount] = useState<string>('0');
-  const hasMounted = useRef(false);
+  const [visitorCount, setVisitorCount] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('exam_visitor_count_prod');
+        if (saved) {
+          const parsed = parseInt(saved, 10);
+          if (!Number.isNaN(parsed) && parsed > 0) {
+            return parsed.toLocaleString();
+          }
+        }
+      } catch {
+        // ignore
+      }
+    }
+    return DEFAULT_COUNT.toLocaleString();
+  });
 
   useEffect(() => {
-    // Guard within component lifecycle
-    if (hasMounted.current) return;
-    hasMounted.current = true;
-
     let isMounted = true;
 
-    // Clear legacy session lock from earlier tests
-    try {
-      sessionStorage.removeItem('has_counted_visit_prod');
-    } catch {
-      // ignore
-    }
-
-    // Read cached count from localStorage for instant display
+    // Immediately check localStorage
     try {
       const saved = localStorage.getItem('exam_visitor_count_prod');
       if (saved) {
         const parsed = parseInt(saved, 10);
-        if (!Number.isNaN(parsed) && parsed >= 0) {
+        if (!Number.isNaN(parsed) && parsed > 0) {
           setVisitorCount(parsed.toLocaleString());
         }
       }
@@ -44,8 +47,8 @@ export function Footer() {
     }
 
     const now = Date.now();
-    // If hit was called less than 2.5s ago (e.g. React StrictMode double-mount),
-    // use /get/ instead of /hit/ to guarantee exactly +1 count
+    // If hit was called less than 2.5s ago (e.g. React StrictMode remount),
+    // use /get/ instead of /hit/ to guarantee deduplication
     const isRapidRemount = now - lastHitTime < 2500;
     const requestUrl = isRapidRemount
       ? 'https://countapi.mileshilliard.com/api/v1/get/adityajkate_exam_questions_prod'
@@ -65,21 +68,34 @@ export function Footer() {
       .then((data) => {
         if (!isMounted) return;
         const val = Number(data?.value ?? data?.count);
-        if (!Number.isNaN(val) && val >= 0) {
-          const total = val + BASE_OFFSET;
-          cachedLiveCount = total;
+        if (!Number.isNaN(val) && val > 0) {
+          cachedLiveCount = val;
           try {
-            localStorage.setItem('exam_visitor_count_prod', String(total));
+            localStorage.setItem('exam_visitor_count_prod', String(val));
           } catch {
-            // ignore storage errors
+            // ignore
           }
-          setVisitorCount(total.toLocaleString());
+          setVisitorCount(val.toLocaleString());
         }
       })
       .catch(() => {
         if (!isMounted) return;
-        if (cachedLiveCount !== null) {
+        if (cachedLiveCount !== null && cachedLiveCount > 0) {
           setVisitorCount(cachedLiveCount.toLocaleString());
+        } else {
+          try {
+            const saved = localStorage.getItem('exam_visitor_count_prod');
+            if (saved) {
+              const parsed = parseInt(saved, 10);
+              if (!Number.isNaN(parsed) && parsed > 0) {
+                setVisitorCount(parsed.toLocaleString());
+                return;
+              }
+            }
+          } catch {
+            // ignore
+          }
+          setVisitorCount(DEFAULT_COUNT.toLocaleString());
         }
       });
 
@@ -119,7 +135,9 @@ export function Footer() {
             fill="currentColor"
           />
         </svg>
-        <span className="counter-value">{visitorCount}</span>
+        <span className="counter-value" suppressHydrationWarning>
+          {visitorCount}
+        </span>
         <span className="counter-label">visitors</span>
       </div>
     </div>
