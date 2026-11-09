@@ -1884,8 +1884,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u2-10m-12",
             "number": 12,
-            "text": "Consider the corpus: '<s> I am Sam </s>', '<s> Sam I am </s>', '<s> Sam I like </s>', '<s> Sam I do like </s>', '<s> do I like Sam </s>'. Compute predicted next words using bigram model.",
-            "cleanText": "Consider the corpus: '<s> I am Sam </s>', '<s> Sam I am </s>', '<s> Sam I like </s>', '<s> Sam I do like </s>', '<s> do I like Sam </s>'. Compute predicted next words using bigram model.",
+            "text": "Consider the corpus:\n<s> I am Sam </s>\n<s> Sam I am </s>\n<s> Sam I like </s>\n<s> Sam I do like </s>\n<s> do I like Sam </s>\n\nCompute predicted next words using bigram model.",
+            "cleanText": "Consider the corpus:\n<s> I am Sam </s>\n<s> Sam I am </s>\n<s> Sam I like </s>\n<s> Sam I do like </s>\n<s> do I like Sam </s>\n\nCompute predicted next words using bigram model.",
             "marks": 10,
             "years": [
               "May 2024"
@@ -2253,8 +2253,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u6-10m-1",
             "number": 1,
-            "text": "Text Summarization (any 2 option)",
-            "cleanText": "Text Summarization (any 2 option)",
+            "text": "Text Summarization (short note)",
+            "cleanText": "Text Summarization (short note)",
             "marks": 10,
             "years": [
               "Dec 2024"
@@ -2264,8 +2264,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u6-10m-2",
             "number": 2,
-            "text": "Named Entity Resolution (any 2 option)",
-            "cleanText": "Named Entity Resolution (any 2 option)",
+            "text": "Named Entity Resolution (short note)",
+            "cleanText": "Named Entity Resolution (short note)",
             "marks": 10,
             "years": [
               "Dec 2024"
@@ -2275,8 +2275,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u6-10m-3",
             "number": 3,
-            "text": "Machine Translation (any 2 option)",
-            "cleanText": "Machine Translation (any 2 option)",
+            "text": "Machine Translation (short note)",
+            "cleanText": "Machine Translation (short note)",
             "marks": 10,
             "years": [
               "Dec 2024"
@@ -2286,8 +2286,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u6-10m-4",
             "number": 4,
-            "text": "Question Answering System (any 2 option)",
-            "cleanText": "Question Answering System (any 2 option)",
+            "text": "Question Answering System (short note)",
+            "cleanText": "Question Answering System (short note)",
             "marks": 10,
             "years": [
               "Dec 2024"
@@ -2461,8 +2461,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u2-10m-9",
             "number": 9,
-            "text": "Bertrand and Cournot models of oligopoly (any 2 option)",
-            "cleanText": "Bertrand and Cournot models of oligopoly (any 2 option)",
+            "text": "Bertrand and Cournot models of oligopoly (short note)",
+            "cleanText": "Bertrand and Cournot models of oligopoly (short note)",
             "marks": 10,
             "years": [
               "May 2024"
@@ -2544,8 +2544,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u4-10m-1",
             "number": 1,
-            "text": "Computing Solution Concepts of Normal – Form Games (any 2 option)",
-            "cleanText": "Computing Solution Concepts of Normal – Form Games (any 2 option)",
+            "text": "Computing Solution Concepts of Normal – Form Games (short note)",
+            "cleanText": "Computing Solution Concepts of Normal – Form Games (short note)",
             "marks": 10,
             "years": [
               "Dec 2023"
@@ -2555,8 +2555,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u4-10m-2",
             "number": 2,
-            "text": "Computing Solution Concepts of Normal – Form Games (any 2 option)",
-            "cleanText": "Computing Solution Concepts of Normal – Form Games (any 2 option)",
+            "text": "Computing Solution Concepts of Normal – Form Games (short note)",
+            "cleanText": "Computing Solution Concepts of Normal – Form Games (short note)",
             "marks": 10,
             "years": [
               "May 2024"
@@ -2586,8 +2586,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u5-10m-1",
             "number": 1,
-            "text": "VCG mechanisms (any 2 option)",
-            "cleanText": "VCG mechanisms (any 2 option)",
+            "text": "VCG mechanisms (short note)",
+            "cleanText": "VCG mechanisms (short note)",
             "marks": 10,
             "years": [
               "Dec 2023"
@@ -2650,8 +2650,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u6-10m-1",
             "number": 1,
-            "text": "Repeated Games (any 2 option)",
-            "cleanText": "Repeated Games (any 2 option)",
+            "text": "Repeated Games (short note)",
+            "cleanText": "Repeated Games (short note)",
             "marks": 10,
             "years": [
               "Dec 2023"
@@ -2661,8 +2661,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u6-10m-2",
             "number": 2,
-            "text": "Repeated Games (any 2 option)",
-            "cleanText": "Repeated Games (any 2 option)",
+            "text": "Repeated Games (short note)",
+            "cleanText": "Repeated Games (short note)",
             "marks": 10,
             "years": [
               "May 2024"
