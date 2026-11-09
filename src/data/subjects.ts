@@ -1303,8 +1303,8 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u4-10m-8",
             "number": 8,
-            "text": "Create a Bloom filter with the following parameters: Size of the bit array m=8, Hash functions: h1(x)=x mod m, h2(x)=(2x+1) mod m, h3(x)=(3x+2) mod m. (i) Insert elements 12, 25, 30, 5 (ii) Check if 6, 55 are present (iii) Identify true positive and true negative.",
-            "cleanText": "Create a Bloom filter with the following parameters: Size of the bit array m=8, Hash functions: h1(x)=x mod m, h2(x)=(2x+1) mod m, h3(x)=(3x+2) mod m. (i) Insert elements 12, 25, 30, 5 (ii) Check if 6, 55 are present (iii) Identify true positive and true negative.",
+            "text": "Create a Bloom filter with the following parameters:\n• Size of the bit array: $m = 8$\n• Hash functions:\n  $h_1(x) = x \\bmod m$\n  $h_2(x) = (2x + 1) \\bmod m$\n  $h_3(x) = (3x + 2) \\bmod m$\n\n(i) Insert elements 12, 25, 30, 5\n(ii) Check if 6, 55 are present\n(iii) Identify true positive and true negative.",
+            "cleanText": "Create a Bloom filter with the following parameters:\n• Size of the bit array: $m = 8$\n• Hash functions:\n  $h_1(x) = x \\bmod m$\n  $h_2(x) = (2x + 1) \\bmod m$\n  $h_3(x) = (3x + 2) \\bmod m$\n\n(i) Insert elements 12, 25, 30, 5\n(ii) Check if 6, 55 are present\n(iii) Identify true positive and true negative.",
             "marks": 10,
             "years": [
               "Dec 2024 (2)"
@@ -1314,8 +1314,8 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u4-10m-9",
             "number": 9,
-            "text": "For the stream of integers: 9, 8, 7, 6, 5, 4, 3, 2. Use the hash function h(x)=(2x+1) mod 32 and treat the result as a 5-bit binary integer. Show the steps of the Flajolet-Martin algorithm to estimate the number of distinct elements in this stream.",
-            "cleanText": "For the stream of integers: 9, 8, 7, 6, 5, 4, 3, 2. Use the hash function h(x)=(2x+1) mod 32 and treat the result as a 5-bit binary integer. Show the steps of the Flajolet-Martin algorithm to estimate the number of distinct elements in this stream.",
+            "text": "For the stream of integers: 9, 8, 7, 6, 5, 4, 3, 2\n\nUse the hash function $h(x) = (2x + 1) \\bmod 32$ and treat the result as a 5-bit binary integer.\n\nShow the steps of the Flajolet-Martin algorithm to estimate the number of distinct elements in this stream.",
+            "cleanText": "For the stream of integers: 9, 8, 7, 6, 5, 4, 3, 2\n\nUse the hash function $h(x) = (2x + 1) \\bmod 32$ and treat the result as a 5-bit binary integer.\n\nShow the steps of the Flajolet-Martin algorithm to estimate the number of distinct elements in this stream.",
             "marks": 10,
             "years": [
               "Dec 2024 (2)"
