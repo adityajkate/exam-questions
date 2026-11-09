@@ -2417,8 +2417,8 @@ export const subjects: Subject[] = [
           {
             "id": "gt-u2-10m-5",
             "number": 5,
-            "text": "Consider a game with the following payoff matrix for Player A and Player B: (A1: 4,2 / 3,3; A2: 2,3 / 1,4). i. Identify the Nash Equilibrium, if any. ii. Discuss whether this game has a dominant strategy for any player",
-            "cleanText": "Consider a game with the following payoff matrix for Player A and Player B: (A1: 4,2 / 3,3; A2: 2,3 / 1,4). i. Identify the Nash Equilibrium, if any. ii. Discuss whether this game has a dominant strategy for any player",
+            "text": "Consider a game with the following payoff matrix for Player A and Player B:\n\n$$\\begin{array}{c|c|c} \\text{Player A} \\backslash \\text{Player B} & B_1 & B_2 \\\\ \\hline A_1 & (4, 2) & (3, 3) \\\\ \\hline A_2 & (2, 3) & (1, 4) \\end{array}$$\n\ni. Identify the Nash Equilibrium, if any.\nii. Discuss whether this game has a dominant strategy for any player.",
+            "cleanText": "Consider a game with the following payoff matrix for Player A and Player B:\n\n$$\\begin{array}{c|c|c} \\text{Player A} \\backslash \\text{Player B} & B_1 & B_2 \\\\ \\hline A_1 & (4, 2) & (3, 3) \\\\ \\hline A_2 & (2, 3) & (1, 4) \\end{array}$$\n\ni. Identify the Nash Equilibrium, if any.\nii. Discuss whether this game has a dominant strategy for any player.",
             "marks": 10,
             "years": [
               "May 2024"
