@@ -476,8 +476,8 @@ export const subjects: Subject[] = [
           {
             "id": "dl-u4-10m-1",
             "number": 1,
-            "text": "Explain CNN architecture in detail. Suppose, we have input volume of 32323 for a layer in CNN and there are ten 5*5 filters with stride 1 and pad 2; calculate the number of parameters in this layer of CNN",
-            "cleanText": "Explain CNN architecture in detail. Suppose, we have input volume of 32323 for a layer in CNN and there are ten 5*5 filters with stride 1 and pad 2; calculate the number of parameters in this layer of CNN",
+            "text": "Explain CNN architecture in detail. Suppose, we have input volume of 32x32x3 for a layer in CNN and there are ten 5x5 filters with stride 1 and pad 2; calculate the number of parameters in this layer of CNN",
+            "cleanText": "Explain CNN architecture in detail. Suppose, we have input volume of 32x32x3 for a layer in CNN and there are ten 5x5 filters with stride 1 and pad 2; calculate the number of parameters in this layer of CNN",
             "marks": 10,
             "years": [
               "Dec 2023"
