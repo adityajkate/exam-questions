@@ -1818,8 +1818,8 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u2-10m-6",
             "number": 6,
-            "text": "Consider the following corpus: <s> I am Sam </s> / <s> I like college </s> / <s> Do Sam like college </s> / <s> Sam I am </s> / <s> Do I like Sam </s> / <s> Do I like college </s> / <s> I do like Sam </s>. List all possible bigrams. Compute conditional probabilities and predict the next word for the word i) like ii) Sam",
-            "cleanText": "Consider the following corpus: <s> I am Sam </s> / <s> I like college </s> / <s> Do Sam like college </s> / <s> Sam I am </s> / <s> Do I like Sam </s> / <s> Do I like college </s> / <s> I do like Sam </s>. List all possible bigrams. Compute conditional probabilities and predict the next word for the word i) like ii) Sam",
+            "text": "Consider the following corpus:\n<s> I am Sam </s>\n<s> I like college </s>\n<s> Do Sam like college </s>\n<s> Sam I am </s>\n<s> Do I like Sam </s>\n<s> Do I like college </s>\n<s> I do like Sam </s>\n\nList all possible bigrams. Compute conditional probabilities and predict the next word for the word:\ni) like\nii) Sam",
+            "cleanText": "Consider the following corpus:\n<s> I am Sam </s>\n<s> I like college </s>\n<s> Do Sam like college </s>\n<s> Sam I am </s>\n<s> Do I like Sam </s>\n<s> Do I like college </s>\n<s> I do like Sam </s>\n\nList all possible bigrams. Compute conditional probabilities and predict the next word for the word:\ni) like\nii) Sam",
             "marks": 10,
             "years": [
               "May 2025"
