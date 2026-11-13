@@ -69,6 +69,28 @@ export const subjects: Subject[] = [
               "May 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u1-5m-6",
+            "number": 6,
+            "text": "Discuss the role of gradient descent in neural network learning",
+            "cleanText": "Discuss the role of gradient descent in neural network learning",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u1-5m-7",
+            "number": 7,
+            "text": "Discuss the working of Feed Forward and Recurrent Neural Networks",
+            "cleanText": "Discuss the working of Feed Forward and Recurrent Neural Networks",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
         "questions10": [
@@ -104,9 +126,31 @@ export const subjects: Subject[] = [
               "Dec 2024"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u1-10m-4",
+            "number": 4,
+            "text": "Explain the architecture and working of a Feed Forward Neural Network with a neat diagram. Discuss the functions of input, hidden, and output layers",
+            "cleanText": "Explain the architecture and working of a Feed Forward Neural Network with a neat diagram. Discuss the functions of input, hidden, and output layers",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u1-10m-5",
+            "number": 5,
+            "text": "Compare CNN, RNN, and DNN architectures in terms of data types handled, structure, and applications",
+            "cleanText": "Compare CNN, RNN, and DNN architectures in terms of data types handled, structure, and applications",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 8
+        "totalQuestions": 12
       },
       {
         "number": 2,
@@ -197,6 +241,39 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "May 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u2-5m-9",
+            "number": 9,
+            "text": "Explain the major factors influencing the learning efficiency of a deep neural network",
+            "cleanText": "Explain the major factors influencing the learning efficiency of a deep neural network",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u2-5m-10",
+            "number": 10,
+            "text": "Describe the importance of activation functions in deep learning models",
+            "cleanText": "Describe the importance of activation functions in deep learning models",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u2-5m-11",
+            "number": 11,
+            "text": "Explain how MSE measures prediction error in regression models",
+            "cleanText": "Explain how MSE measures prediction error in regression models",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -344,9 +421,31 @@ export const subjects: Subject[] = [
               "May 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u2-10m-14",
+            "number": 14,
+            "text": "Explain the need for regularization in deep neural networks. Discuss various regularization techniques used to reduce overfitting",
+            "cleanText": "Explain the need for regularization in deep neural networks. Discuss various regularization techniques used to reduce overfitting",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u2-10m-15",
+            "number": 15,
+            "text": "Identify the problem when a deep learning model achieves high training accuracy but low validation accuracy. Suggest suitable solutions",
+            "cleanText": "Identify the problem when a deep learning model achieves high training accuracy but low validation accuracy. Suggest suitable solutions",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 21
+        "totalQuestions": 26
       },
       {
         "number": 3,
@@ -549,9 +648,31 @@ export const subjects: Subject[] = [
               "May 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u4-10m-8",
+            "number": 8,
+            "text": "Explain the complete workflow of a Convolutional Neural Network with a neat diagram and suitable example",
+            "cleanText": "Explain the complete workflow of a Convolutional Neural Network with a neat diagram and suitable example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u4-10m-9",
+            "number": 9,
+            "text": "Explain the architecture of AlexNet with a diagram. Explain the significance of ReLU activation and Dropout regularization in AlexNet",
+            "cleanText": "Explain the architecture of AlexNet with a diagram. Explain the significance of ReLU activation and Dropout regularization in AlexNet",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 10
+        "totalQuestions": 12
       },
       {
         "number": 5,
@@ -657,9 +778,31 @@ export const subjects: Subject[] = [
               "May 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u5-10m-9",
+            "number": 9,
+            "text": "Compare the performance of LSTM and GRU on long-sequence datasets. Which one would you choose for faster training and why?",
+            "cleanText": "Compare the performance of LSTM and GRU on long-sequence datasets. Which one would you choose for faster training and why?",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u5-10m-10",
+            "number": 10,
+            "text": "Describe the architecture and training mechanism of RNN using BPTT in detail",
+            "cleanText": "Describe the architecture and training mechanism of RNN using BPTT in detail",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 9
+        "totalQuestions": 11
       },
       {
         "number": 6,
@@ -731,14 +874,36 @@ export const subjects: Subject[] = [
               "May 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "dl-u6-10m-7",
+            "number": 7,
+            "text": "Explain the architecture and working principle of a Generative Adversarial Network with a labelled diagram",
+            "cleanText": "Explain the architecture and working principle of a Generative Adversarial Network with a labelled diagram",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "dl-u6-10m-8",
+            "number": 8,
+            "text": "Analyze the applications of GANs in image generation and image-to-image translation for improving training efficiency",
+            "cleanText": "Analyze the applications of GANs in image generation and image-to-image translation for improving training efficiency",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 6
+        "totalQuestions": 8
       }
     ],
-    "total5M": 20,
-    "total10M": 41,
-    "totalQuestions": 61
+    "total5M": 25,
+    "total10M": 51,
+    "totalQuestions": 76
   },
   {
     "slug": "bda",
