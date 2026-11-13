@@ -1052,9 +1052,31 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u1-10m-7",
+            "number": 7,
+            "text": "Explain Hadoop Ecosystem in detail",
+            "cleanText": "Explain Hadoop Ecosystem in detail",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u1-10m-8",
+            "number": 8,
+            "text": "Mention four characteristics of big data. Elaborate these characteristics with respect to social media websites",
+            "cleanText": "Mention four characteristics of big data. Elaborate these characteristics with respect to social media websites",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 12
+        "totalQuestions": 14
       },
       {
         "number": 2,
@@ -1112,6 +1134,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-5m-6",
+            "number": 6,
+            "text": "What is the role of a combiner in the map reduce framework? Explain with the help of an example",
+            "cleanText": "What is the role of a combiner in the map reduce framework? Explain with the help of an example",
+            "marks": 5,
+            "years": [
+              "Dec 2025"
             ],
             "hasDiagram": false
           }
@@ -1226,9 +1259,31 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-10m-11",
+            "number": 11,
+            "text": "Write map-reduce pseudo code/algorithm to solve wordcount problem. Apply map-reduce working on the following document: \"Big data is powerful. Big data drives decisions.\"",
+            "cleanText": "Write map-reduce pseudo code/algorithm to solve wordcount problem. Apply map-reduce working on the following document: \"Big data is powerful. Big data drives decisions.\"",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-10m-12",
+            "number": 12,
+            "text": "Write a Map Reduce pseudo code to Vector-Matrix multiplication. Demonstrate all the steps for the following matrix and vector:\n\n$$M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}, \\quad V = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$$",
+            "cleanText": "Write a Map Reduce pseudo code to Vector-Matrix multiplication. Demonstrate all the steps for the following matrix and vector:\n\nM = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], V = [1, 2, 3]",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 15
+        "totalQuestions": 18
       },
       {
         "number": 3,
@@ -1345,9 +1400,20 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u3-10m-7",
+            "number": 7,
+            "text": "Summarize how business problems have been successfully solved faster, cheaper and more effectively considering NOSQL Google's bigtable case study. Also, illustrate the business drivers and findings in it",
+            "cleanText": "Summarize how business problems have been successfully solved faster, cheaper and more effectively considering NOSQL Google's bigtable case study. Also, illustrate the business drivers and findings in it",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 10
+        "totalQuestions": 11
       },
       {
         "number": 4,
@@ -1383,6 +1449,28 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-5m-4",
+            "number": 4,
+            "text": "Which algorithm can be used for finding distinct elements in a long data stream? Give two real life applications for the same",
+            "cleanText": "Which algorithm can be used for finding distinct elements in a long data stream? Give two real life applications for the same",
+            "marks": 5,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-5m-5",
+            "number": 5,
+            "text": "Why recall is 100% for blooms filter, explain in detail",
+            "cleanText": "Why recall is 100% for blooms filter, explain in detail",
+            "marks": 5,
+            "years": [
+              "Dec 2025"
             ],
             "hasDiagram": false
           }
@@ -1486,9 +1574,31 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-10m-10",
+            "number": 10,
+            "text": "Discuss Bloom's filter in detail and insert elements 10 and 7 in Bloom's filter of size 5 using following hash functions:\n• $h_1(x) = x \\bmod 5$\n• $h_2(x) = (2x + 6) \\bmod 5$",
+            "cleanText": "Discuss Bloom's filter in detail and insert elements 10 and 7 in Bloom's filter of size 5 using following hash functions:\n• $h_1(x) = x \\bmod 5$\n• $h_2(x) = (2x + 6) \\bmod 5$",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-10m-11",
+            "number": 11,
+            "text": "Suppose our stream consists of the integers: 3, 1, 4, 1, 5, 9, 2, 6, 5\n\nDetermine the number of distinct elements if the hash function is $h(x) = (3x + 7) \\bmod 8$, and treat the result as a 5-bit binary integer.",
+            "cleanText": "Suppose our stream consists of the integers: 3, 1, 4, 1, 5, 9, 2, 6, 5\n\nDetermine the number of distinct elements if the hash function is $h(x) = (3x + 7) \\bmod 8$, and treat the result as a 5-bit binary integer.",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 12
+        "totalQuestions": 16
       },
       {
         "number": 5,
@@ -1601,7 +1711,19 @@ export const subjects: Subject[] = [
       {
         "number": 6,
         "title": "UNIT 6 - Real-Time Big Data Models",
-        "questions5": [],
+        "questions5": [
+          {
+            "id": "bda-u6-5m-1",
+            "number": 1,
+            "text": "Describe terms TF and IDF with respect to content based filtering",
+            "cleanText": "Describe terms TF and IDF with respect to content based filtering",
+            "marks": 5,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          }
+        ],
         "questions10": [
           {
             "id": "bda-u6-10m-1",
@@ -1736,9 +1858,31 @@ export const subjects: Subject[] = [
             ],
             "hasDiagram": true,
             "diagramUrl": "/diagrams/BDA/CPM_Numerical_2.png"
+          },
+          {
+            "id": "bda-u6-10m-13",
+            "number": 13,
+            "text": "Predict rating of user 2 for Movie 3 using Pearson's Correlation coefficient",
+            "cleanText": "Predict rating of user 2 for Movie 3 using Pearson's Correlation coefficient",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u6-10m-14",
+            "number": 14,
+            "text": "Demonstrate the different communities using Girvan-Newman algorithm for the following graph with nodes A, B, C, D, E and edges:\nA-B, A-C, B-D, B-E, C-D, D-E",
+            "cleanText": "Demonstrate the different communities using Girvan-Newman algorithm for the following graph with nodes A, B, C, D, E and edges:\nA-B, A-C, B-D, B-E, C-D, D-E",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 12
+        "totalQuestions": 15
       },
       {
         "number": 7,
@@ -1779,14 +1923,25 @@ export const subjects: Subject[] = [
             ],
             "hasDiagram": true,
             "diagramUrl": "/diagrams/BDA/table_BDA.png"
+          },
+          {
+            "id": "bda-r-10m-3",
+            "number": 3,
+            "text": "Explain different data visualization techniques in R with examples",
+            "cleanText": "Explain different data visualization techniques in R with examples",
+            "marks": 10,
+            "years": [
+              "Dec 2025"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 3
+        "totalQuestions": 4
       }
     ],
-    "total5M": 21,
-    "total10M": 52,
-    "totalQuestions": 73
+    "total5M": 25,
+    "total10M": 62,
+    "totalQuestions": 87
   },
   {
     "slug": "nlp",
