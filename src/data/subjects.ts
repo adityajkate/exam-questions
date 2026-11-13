@@ -1275,7 +1275,7 @@ export const subjects: Subject[] = [
             "id": "bda-u2-10m-12",
             "number": 12,
             "text": "Write a Map Reduce pseudo code to Vector-Matrix multiplication. Demonstrate all the steps for the following matrix and vector:\n\n$$M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}, \\quad V = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$$",
-            "cleanText": "Write a Map Reduce pseudo code to Vector-Matrix multiplication. Demonstrate all the steps for the following matrix and vector:\n\nM = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], V = [1, 2, 3]",
+            "cleanText": "Write a Map Reduce pseudo code to Vector-Matrix multiplication. Demonstrate all the steps for the following matrix and vector:\n\n$$M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix}, \\quad V = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$$",
             "marks": 10,
             "years": [
               "Dec 2025"
