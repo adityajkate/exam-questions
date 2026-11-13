@@ -1868,7 +1868,8 @@ export const subjects: Subject[] = [
             "years": [
               "Dec 2025"
             ],
-            "hasDiagram": false
+            "hasDiagram": true,
+            "diagramUrl": "/diagrams/BDA/table_2.png"
           },
           {
             "id": "bda-u6-10m-14",
@@ -1879,7 +1880,8 @@ export const subjects: Subject[] = [
             "years": [
               "Dec 2025"
             ],
-            "hasDiagram": false
+            "hasDiagram": true,
+            "diagramUrl": "/diagrams/BDA/diagram_2.png"
           }
         ],
         "totalQuestions": 15
