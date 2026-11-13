@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { getAllSubjects } from '../data/subjects';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://exam-questions.netlify.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://exam-questions.vercel.app';
   const subjects = getAllSubjects();
 
   const subjectRoutes: MetadataRoute.Sitemap = subjects.map((subj) => ({

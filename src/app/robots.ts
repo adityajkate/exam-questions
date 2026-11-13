@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://exam-questions.netlify.app';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://exam-questions.vercel.app';
 
   return {
     rules: {
