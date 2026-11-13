@@ -1862,8 +1862,8 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u6-10m-13",
             "number": 13,
-            "text": "Predict rating of user 2 for Movie 3 using Pearson's Correlation coefficient",
-            "cleanText": "Predict rating of user 2 for Movie 3 using Pearson's Correlation coefficient",
+            "text": "Predict rating of user 2 for Movie 3 using Pearson’s Correlation coefficient.",
+            "cleanText": "Predict rating of user 2 for Movie 3 using Pearson’s Correlation coefficient.",
             "marks": 10,
             "years": [
               "Dec 2025"
@@ -1874,8 +1874,8 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u6-10m-14",
             "number": 14,
-            "text": "Demonstrate the different communities using Girvan-Newman algorithm for the following graph with nodes A, B, C, D, E and edges:\nA-B, A-C, B-D, B-E, C-D, D-E",
-            "cleanText": "Demonstrate the different communities using Girvan-Newman algorithm for the following graph with nodes A, B, C, D, E and edges:\nA-B, A-C, B-D, B-E, C-D, D-E",
+            "text": "Demonstrate the different communities using Girwan-Newman algorithm for the following graph.\n\nEdges in the graph: A-B, A-C, B-D, B-E, C-D, D-E",
+            "cleanText": "Demonstrate the different communities using Girwan-Newman algorithm for the following graph.\n\nEdges in the graph: A-B, A-C, B-D, B-E, C-D, D-E",
             "marks": 10,
             "years": [
               "Dec 2025"
