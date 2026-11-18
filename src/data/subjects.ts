@@ -2134,6 +2134,17 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u1-5m-3",
+            "number": 3,
+            "text": "Explain ambiguity in every stage of NLP with example",
+            "cleanText": "Explain ambiguity in every stage of NLP with example",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
         "questions10": [
@@ -2181,9 +2192,20 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u1-10m-5",
+            "number": 5,
+            "text": "Explain stages of NLP with example",
+            "cleanText": "Explain stages of NLP with example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 6
+        "totalQuestions": 8
       },
       {
         "number": 2,
@@ -2230,6 +2252,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u2-5m-5",
+            "number": 5,
+            "text": "Differentiate between inflectional and derivational morphology.",
+            "cleanText": "Differentiate between inflectional and derivational morphology.",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -2389,9 +2422,42 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u2-10m-15",
+            "number": 15,
+            "text": "Explain finite state transducer with suitable diagram and example.",
+            "cleanText": "Explain finite state transducer with suitable diagram and example.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u2-10m-16",
+            "number": 16,
+            "text": "Consider the following corpus:\n<s> I tell you to sleep rest </s>\n<s> I would like to sleep for an hour </s>\n<s> Sleep helps one to relax </s>\n\nList all possible bigram. Compute conditional probabilities and predict the next word for the word “to”.",
+            "cleanText": "Consider the following corpus:\n<s> I tell you to sleep rest </s>\n<s> I would like to sleep for an hour </s>\n<s> Sleep helps one to relax </s>\n\nList all possible bigram. Compute conditional probabilities and predict the next word for the word “to”.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u2-10m-17",
+            "number": 17,
+            "text": "Explain porter stemmer algorithm with rules.",
+            "cleanText": "Explain porter stemmer algorithm with rules.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 18
+        "totalQuestions": 22
       },
       {
         "number": 3,
@@ -2427,6 +2493,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "May 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u3-5m-4",
+            "number": 4,
+            "text": "Define POS tagging. What are the different tagsets use in POS tagging?",
+            "cleanText": "Define POS tagging. What are the different tagsets use in POS tagging?",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -2475,9 +2552,42 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u3-10m-5",
+            "number": 5,
+            "text": "Define POS tagging. Explain Rule based POS tagging and Transformation based tagging with example.",
+            "cleanText": "Define POS tagging. Explain Rule based POS tagging and Transformation based tagging with example.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u3-10m-6",
+            "number": 6,
+            "text": "Explain constituency in context free grammar with example.",
+            "cleanText": "Explain constituency in context free grammar with example.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u3-10m-7",
+            "number": 7,
+            "text": "What is Sequential Labelling? Explain classification method with example.",
+            "cleanText": "What is Sequential Labelling? Explain classification method with example.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 7
+        "totalQuestions": 11
       },
       {
         "number": 4,
@@ -2573,9 +2683,31 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u4-10m-6",
+            "number": 6,
+            "text": "Explain LESK algorithm for Word Sense Disambiguation.",
+            "cleanText": "Explain LESK algorithm for Word Sense Disambiguation.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u4-10m-7",
+            "number": 7,
+            "text": "Explain relations among lexemes & their senses with example.",
+            "cleanText": "Explain relations among lexemes & their senses with example.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 8
+        "totalQuestions": 10
       },
       {
         "number": 5,
@@ -2612,6 +2744,28 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u5-5m-4",
+            "number": 4,
+            "text": "Define reference resolution and explain Five common types of referring expression.",
+            "cleanText": "Define reference resolution and explain Five common types of referring expression.",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "nlp-u5-5m-5",
+            "number": 5,
+            "text": "Explain syntactic and semantic constraints on coherence.",
+            "cleanText": "Explain syntactic and semantic constraints on coherence.",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -2662,7 +2816,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 7
+        "totalQuestions": 9
       },
       {
         "number": 6,
@@ -2791,14 +2945,25 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "nlp-u6-10m-7",
+            "number": 7,
+            "text": "Discuss pre-processing steps use in “toxic word identification” in semantic analysis application.",
+            "cleanText": "Discuss pre-processing steps use in “toxic word identification” in semantic analysis application.",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 11
+        "totalQuestions": 12
       }
     ],
-    "total5M": 20,
-    "total10M": 37,
-    "totalQuestions": 57
+    "total5M": 25,
+    "total10M": 47,
+    "totalQuestions": 72
   },
   {
     "slug": "gt",
