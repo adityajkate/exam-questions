@@ -984,6 +984,17 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u1-5m-7",
+            "number": 7,
+            "text": "How big data analysis provide competitive advantage to industries",
+            "cleanText": "How big data analysis provide competitive advantage to industries",
+            "marks": 5,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
         "questions10": [
@@ -1074,9 +1085,20 @@ export const subjects: Subject[] = [
               "Dec 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u1-10m-9",
+            "number": 9,
+            "text": "Describe characteristics of big data with example",
+            "cleanText": "Describe characteristics of big data with example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 14
+        "totalQuestions": 16
       },
       {
         "number": 2,
@@ -1145,6 +1167,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-5m-7",
+            "number": 7,
+            "text": "Write down the limitations of Hadoop",
+            "cleanText": "Write down the limitations of Hadoop",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -1281,9 +1314,31 @@ export const subjects: Subject[] = [
               "Dec 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-10m-13",
+            "number": 13,
+            "text": "Describe the HDFS. How does HDFS manage the storage and replication of data across a distributed cluster of machines",
+            "cleanText": "Describe the HDFS. How does HDFS manage the storage and replication of data across a distributed cluster of machines",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u2-10m-14",
+            "number": 14,
+            "text": "Explain Map Reduce Task and following operations using Map-Reduce: 1) Selection 2) Projection",
+            "cleanText": "Explain Map Reduce Task and following operations using Map-Reduce: 1) Selection 2) Projection",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 18
+        "totalQuestions": 21
       },
       {
         "number": 3,
@@ -1411,9 +1466,31 @@ export const subjects: Subject[] = [
               "Dec 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u3-10m-8",
+            "number": 8,
+            "text": "Explain the term NOSQL? Differentiate Master Slave Versus Peer-to-peer distribution models",
+            "cleanText": "Explain the term NOSQL? Differentiate Master Slave Versus Peer-to-peer distribution models",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u3-10m-9",
+            "number": 9,
+            "text": "Explain following NOSQL data architectural pattern in detail: 1) Key value stores 2) Graph stores",
+            "cleanText": "Explain following NOSQL data architectural pattern in detail: 1) Key value stores 2) Graph stores",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 11
+        "totalQuestions": 13
       },
       {
         "number": 4,
@@ -1471,6 +1548,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "Dec 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-5m-6",
+            "number": 6,
+            "text": "What is False Positive in a Bloom Filter? Give example",
+            "cleanText": "What is False Positive in a Bloom Filter? Give example",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -1596,9 +1684,31 @@ export const subjects: Subject[] = [
               "Dec 2025"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-10m-12",
+            "number": 12,
+            "text": "What is DGIM algorithm? Explain with example",
+            "cleanText": "What is DGIM algorithm? Explain with example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u4-10m-13",
+            "number": 13,
+            "text": "What is data stream management system? How does it works?",
+            "cleanText": "What is data stream management system? How does it works?",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 16
+        "totalQuestions": 19
       },
       {
         "number": 5,
@@ -1623,6 +1733,17 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "May 2025"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u5-5m-3",
+            "number": 3,
+            "text": "Define distance measure and give formula of cosine similarity",
+            "cleanText": "Define distance measure and give formula of cosine similarity",
+            "marks": 5,
+            "years": [
+              "May 2026"
             ],
             "hasDiagram": false
           }
@@ -1704,9 +1825,20 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u5-10m-8",
+            "number": 8,
+            "text": "Explain Euclidean distance and Jaccard distance with example",
+            "cleanText": "Explain Euclidean distance and Jaccard distance with example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 9
+        "totalQuestions": 11
       },
       {
         "number": 6,
@@ -1882,9 +2014,31 @@ export const subjects: Subject[] = [
             ],
             "hasDiagram": true,
             "diagramUrl": "/diagrams/BDA/diagram_2.png"
+          },
+          {
+            "id": "bda-u6-10m-15",
+            "number": 15,
+            "text": "Explain Content based filtering with example",
+            "cleanText": "Explain Content based filtering with example",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
+          },
+          {
+            "id": "bda-u6-10m-16",
+            "number": 16,
+            "text": "Write note on social network as graph",
+            "cleanText": "Write note on social network as graph",
+            "marks": 10,
+            "years": [
+              "May 2026"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 15
+        "totalQuestions": 17
       },
       {
         "number": 7,
@@ -1941,9 +2095,9 @@ export const subjects: Subject[] = [
         "totalQuestions": 4
       }
     ],
-    "total5M": 25,
-    "total10M": 62,
-    "totalQuestions": 87
+    "total5M": 29,
+    "total10M": 72,
+    "totalQuestions": 101
   },
   {
     "slug": "nlp",
