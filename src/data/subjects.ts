@@ -977,17 +977,6 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u1-5m-6",
             "number": 6,
-            "text": "Explain CAP. How is CAP different from ACID property in databases?",
-            "cleanText": "Explain CAP. How is CAP different from ACID property in databases?",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "bda-u1-5m-7",
-            "number": 7,
             "text": "How big data analysis provide competitive advantage to industries",
             "cleanText": "How big data analysis provide competitive advantage to industries",
             "marks": 5,
@@ -1098,7 +1087,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 16
+        "totalQuestions": 15
       },
       {
         "number": 2,
@@ -1387,6 +1376,17 @@ export const subjects: Subject[] = [
               "Dec 2024 (2)"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u3-5m-5",
+            "number": 5,
+            "text": "Explain CAP. How is CAP different from ACID property in databases?",
+            "cleanText": "Explain CAP. How is CAP different from ACID property in databases?",
+            "marks": 5,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
           }
         ],
         "questions10": [
@@ -1490,7 +1490,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 13
+        "totalQuestions": 14
       },
       {
         "number": 4,
@@ -1818,17 +1818,6 @@ export const subjects: Subject[] = [
           {
             "id": "bda-u5-10m-7",
             "number": 7,
-            "text": "Justify the use of a Content-Based Recommendation System with a specific case study.",
-            "cleanText": "Justify the use of a Content-Based Recommendation System with a specific case study.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "bda-u5-10m-8",
-            "number": 8,
             "text": "Explain Euclidean distance and Jaccard distance with example",
             "cleanText": "Explain Euclidean distance and Jaccard distance with example",
             "marks": 10,
@@ -1838,7 +1827,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 11
+        "totalQuestions": 10
       },
       {
         "number": 6,
@@ -2036,9 +2025,20 @@ export const subjects: Subject[] = [
               "May 2026"
             ],
             "hasDiagram": false
+          },
+          {
+            "id": "bda-u6-10m-17",
+            "number": 17,
+            "text": "Justify the use of a Content-Based Recommendation System with a specific case study.",
+            "cleanText": "Justify the use of a Content-Based Recommendation System with a specific case study.",
+            "marks": 10,
+            "years": [
+              "Dec 2024 (2)"
+            ],
+            "hasDiagram": false
           }
         ],
-        "totalQuestions": 17
+        "totalQuestions": 18
       },
       {
         "number": 7,
