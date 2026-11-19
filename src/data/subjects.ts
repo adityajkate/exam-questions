@@ -2127,17 +2127,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u1-5m-2",
             "number": 2,
-            "text": "Differentiate between Syntactic ambiguity and Lexical Ambiguity.",
-            "cleanText": "Differentiate between Syntactic ambiguity and Lexical Ambiguity.",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u1-5m-3",
-            "number": 3,
             "text": "Explain ambiguity in every stage of NLP with example",
             "cleanText": "Explain ambiguity in every stage of NLP with example",
             "marks": 5,
@@ -2185,17 +2174,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u1-10m-4",
             "number": 4,
-            "text": "Explain the preprocessing operations in natural language processing.",
-            "cleanText": "Explain the preprocessing operations in natural language processing.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u1-10m-5",
-            "number": 5,
             "text": "Explain stages of NLP with example",
             "cleanText": "Explain stages of NLP with example",
             "marks": 10,
@@ -2205,7 +2183,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 8
+        "totalQuestions": 6
       },
       {
         "number": 2,
@@ -2247,17 +2225,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u2-5m-4",
             "number": 4,
-            "text": "What is hybrid POS tagging?",
-            "cleanText": "What is hybrid POS tagging?",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-5m-5",
-            "number": 5,
             "text": "Differentiate between inflectional and derivational morphology.",
             "cleanText": "Differentiate between inflectional and derivational morphology.",
             "marks": 5,
@@ -2338,17 +2305,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u2-10m-7",
             "number": 7,
-            "text": "Explain the Porter Stemming algorithm in detail.",
-            "cleanText": "Explain the Porter Stemming algorithm in detail.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-10m-8",
-            "number": 8,
             "text": "Explain in detail Stochastic (HMM) tagging.",
             "cleanText": "Explain in detail Stochastic (HMM) tagging.",
             "marks": 10,
@@ -2358,8 +2314,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u2-10m-9",
-            "number": 9,
+            "id": "nlp-u2-10m-8",
+            "number": 8,
             "text": "Explain N-gram model with example.",
             "cleanText": "Explain N-gram model with example.",
             "marks": 10,
@@ -2369,30 +2325,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u2-10m-10",
-            "number": 10,
-            "text": "Explain the N-gram language model and its application.",
-            "cleanText": "Explain the N-gram language model and its application.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-10m-11",
-            "number": 11,
-            "text": "Design FST for regular and plural nouns.",
-            "cleanText": "Design FST for regular and plural nouns.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-10m-12",
-            "number": 12,
+            "id": "nlp-u2-10m-9",
+            "number": 9,
             "text": "Consider the corpus:\n<s> I am Sam </s>\n<s> Sam I am </s>\n<s> Sam I like </s>\n<s> Sam I do like </s>\n<s> do I like Sam </s>\n\nCompute predicted next words using bigram model.",
             "cleanText": "Consider the corpus:\n<s> I am Sam </s>\n<s> Sam I am </s>\n<s> Sam I like </s>\n<s> Sam I do like </s>\n<s> do I like Sam </s>\n\nCompute predicted next words using bigram model.",
             "marks": 10,
@@ -2402,30 +2336,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u2-10m-13",
-            "number": 13,
-            "text": "Compute emission and transition probabilities for a bigram HMM with corpus and decode the sentence 'The cat chases the dog' using the Viterbi algorithm.",
-            "cleanText": "Compute emission and transition probabilities for a bigram HMM with corpus and decode the sentence 'The cat chases the dog' using the Viterbi algorithm.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-10m-14",
-            "number": 14,
-            "text": "Explain how Maximum Entropy is used for sequence labeling.",
-            "cleanText": "Explain how Maximum Entropy is used for sequence labeling.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u2-10m-15",
-            "number": 15,
+            "id": "nlp-u2-10m-10",
+            "number": 10,
             "text": "Explain finite state transducer with suitable diagram and example.",
             "cleanText": "Explain finite state transducer with suitable diagram and example.",
             "marks": 10,
@@ -2435,8 +2347,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u2-10m-16",
-            "number": 16,
+            "id": "nlp-u2-10m-11",
+            "number": 11,
             "text": "Consider the following corpus:\n<s> I tell you to sleep rest </s>\n<s> I would like to sleep for an hour </s>\n<s> Sleep helps one to relax </s>\n\nList all possible bigram. Compute conditional probabilities and predict the next word for the word “to”.",
             "cleanText": "Consider the following corpus:\n<s> I tell you to sleep rest </s>\n<s> I would like to sleep for an hour </s>\n<s> Sleep helps one to relax </s>\n\nList all possible bigram. Compute conditional probabilities and predict the next word for the word “to”.",
             "marks": 10,
@@ -2446,8 +2358,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u2-10m-17",
-            "number": 17,
+            "id": "nlp-u2-10m-12",
+            "number": 12,
             "text": "Explain porter stemmer algorithm with rules.",
             "cleanText": "Explain porter stemmer algorithm with rules.",
             "marks": 10,
@@ -2457,7 +2369,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 22
+        "totalQuestions": 16
       },
       {
         "number": 3,
@@ -2545,17 +2457,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u3-10m-4",
             "number": 4,
-            "text": "Construct a parse tree for the sentence 'The tall girl sings' using given CFG rules.",
-            "cleanText": "Construct a parse tree for the sentence 'The tall girl sings' using given CFG rules.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u3-10m-5",
-            "number": 5,
             "text": "Define POS tagging. Explain Rule based POS tagging and Transformation based tagging with example.",
             "cleanText": "Define POS tagging. Explain Rule based POS tagging and Transformation based tagging with example.",
             "marks": 10,
@@ -2565,8 +2466,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u3-10m-6",
-            "number": 6,
+            "id": "nlp-u3-10m-5",
+            "number": 5,
             "text": "Explain constituency in context free grammar with example.",
             "cleanText": "Explain constituency in context free grammar with example.",
             "marks": 10,
@@ -2576,8 +2477,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u3-10m-7",
-            "number": 7,
+            "id": "nlp-u3-10m-6",
+            "number": 6,
             "text": "What is Sequential Labelling? Explain classification method with example.",
             "cleanText": "What is Sequential Labelling? Explain classification method with example.",
             "marks": 10,
@@ -2587,7 +2488,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 11
+        "totalQuestions": 10
       },
       {
         "number": 4,
@@ -2608,17 +2509,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u4-5m-2",
             "number": 2,
-            "text": "What is word sense disambiguation?",
-            "cleanText": "What is word sense disambiguation?",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u4-5m-3",
-            "number": 3,
             "text": "Write a short note on WordNet.",
             "cleanText": "Write a short note on WordNet.",
             "marks": 5,
@@ -2676,17 +2566,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u4-10m-5",
             "number": 5,
-            "text": "Explain how the supervised learning approach can be applied for word sense disambiguation.",
-            "cleanText": "Explain how the supervised learning approach can be applied for word sense disambiguation.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u4-10m-6",
-            "number": 6,
             "text": "Explain LESK algorithm for Word Sense Disambiguation.",
             "cleanText": "Explain LESK algorithm for Word Sense Disambiguation.",
             "marks": 10,
@@ -2696,8 +2575,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u4-10m-7",
-            "number": 7,
+            "id": "nlp-u4-10m-6",
+            "number": 6,
             "text": "Explain relations among lexemes & their senses with example.",
             "cleanText": "Explain relations among lexemes & their senses with example.",
             "marks": 10,
@@ -2707,7 +2586,7 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 10
+        "totalQuestions": 8
       },
       {
         "number": 5,
@@ -2739,17 +2618,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u5-5m-3",
             "number": 3,
-            "text": "Explain reference resolution in detail.",
-            "cleanText": "Explain reference resolution in detail.",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u5-5m-4",
-            "number": 4,
             "text": "Define reference resolution and explain Five common types of referring expression.",
             "cleanText": "Define reference resolution and explain Five common types of referring expression.",
             "marks": 5,
@@ -2759,8 +2627,8 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           },
           {
-            "id": "nlp-u5-5m-5",
-            "number": 5,
+            "id": "nlp-u5-5m-4",
+            "number": 4,
             "text": "Explain syntactic and semantic constraints on coherence.",
             "cleanText": "Explain syntactic and semantic constraints on coherence.",
             "marks": 5,
@@ -2803,20 +2671,9 @@ export const subjects: Subject[] = [
               "May 2024"
             ],
             "hasDiagram": false
-          },
-          {
-            "id": "nlp-u5-10m-4",
-            "number": 4,
-            "text": "Compare and contrast Hobbs' Algorithm and Centering Theory.",
-            "cleanText": "Compare and contrast Hobbs' Algorithm and Centering Theory.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
           }
         ],
-        "totalQuestions": 9
+        "totalQuestions": 7
       },
       {
         "number": 6,
@@ -2864,17 +2721,6 @@ export const subjects: Subject[] = [
             "marks": 5,
             "years": [
               "May 2024"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u6-5m-5",
-            "number": 5,
-            "text": "Explain rule-based machine translation systems.",
-            "cleanText": "Explain rule-based machine translation systems.",
-            "marks": 5,
-            "years": [
-              "Dec 2024 (2)"
             ],
             "hasDiagram": false
           }
@@ -2938,17 +2784,6 @@ export const subjects: Subject[] = [
           {
             "id": "nlp-u6-10m-6",
             "number": 6,
-            "text": "Explain text summarization in detail.",
-            "cleanText": "Explain text summarization in detail.",
-            "marks": 10,
-            "years": [
-              "Dec 2024 (2)"
-            ],
-            "hasDiagram": false
-          },
-          {
-            "id": "nlp-u6-10m-7",
-            "number": 7,
             "text": "Discuss pre-processing steps use in “toxic word identification” in semantic analysis application.",
             "cleanText": "Discuss pre-processing steps use in “toxic word identification” in semantic analysis application.",
             "marks": 10,
@@ -2958,12 +2793,12 @@ export const subjects: Subject[] = [
             "hasDiagram": false
           }
         ],
-        "totalQuestions": 12
+        "totalQuestions": 10
       }
     ],
-    "total5M": 25,
-    "total10M": 47,
-    "totalQuestions": 72
+    "total5M": 20,
+    "total10M": 37,
+    "totalQuestions": 57
   },
   {
     "slug": "gt",
