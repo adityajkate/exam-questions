@@ -24,7 +24,6 @@
 <br><br>     
 ## All questions papers are taken from : 
 <a>https://muquestionpapers.com/be/computer-engineering-aids/semester-7</a>
-FOR MUMBAI UNIVERSITY STUDENTS
 ---
 
 
