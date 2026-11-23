@@ -2812,7 +2812,7 @@ export const subjects: Subject[] = [
     "units": [
       {
         "number": 1,
-        "title": "UNIT 1 - Introduction to Game Theory",
+        "title": "UNIT 1 - Introduction",
         "questions5": [
           {
             "id": "gt-u1-5m-1",
@@ -3381,7 +3381,7 @@ export const subjects: Subject[] = [
       },
       {
         "number": 3,
-        "title": "UNIT 3 - Ethical Issues, Privacy, and Information Security",
+        "title": "UNIT 3 - Ethical issues and Privacy",
         "questions5": [
           {
             "id": "mis-u3-5m-1",
@@ -3492,7 +3492,7 @@ export const subjects: Subject[] = [
       },
       {
         "number": 4,
-        "title": "UNIT 4 - Social Computing, E-Commerce, and Mobile Commerce",
+        "title": "UNIT 4 - Social Computing (SC)",
         "questions5": [
           {
             "id": "mis-u4-5m-1",
@@ -3676,7 +3676,7 @@ export const subjects: Subject[] = [
       },
       {
         "number": 6,
-        "title": "UNIT 6 - Information Systems within Organizations & System Development",
+        "title": "UNIT 6 - Information System within Organization",
         "questions5": [
           {
             "id": "mis-u6-5m-1",
