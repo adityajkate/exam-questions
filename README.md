@@ -26,4 +26,5 @@
 <a>https://muquestionpapers.com/be/computer-engineering-aids/semester-7</a>
 ---
 
+link to access site : https://sem7-questions.vercel.app/
 
